@@ -1,0 +1,51 @@
+#define VOL 3
+
+#define A9 14080
+#define A10 14080
+#define A6 1760
+
+#define D8 4699
+#define D5 587
+#define D4 294
+#define D7 2349
+#define D6 1175
+#define D9 9398
+
+
+#define G7 3136
+#define G8 6272
+#define G9 12544
+#define G6 1568
+#define G4 392
+#define G5 784
+
+#define B3 247
+#define B4 494
+#define B5 988
+#define B6 1976
+#define B8 7902
+#define B7 3951
+
+
+#define A3 220
+#define A4 440
+
+
+
+
+
+
+
+task main()
+{
+PlayToneEx(A3,400,VOL,FALSE); Wait(500);
+PlayToneEx(A3,400,VOL,FALSE); Wait(500);
+PlayToneEx(A3,400,VOL,FALSE); Wait(500);
+PlayToneEx(A4,400,VOL,FALSE); Wait(500);
+PlayToneEx(D4,1600,VOL,FALSE); Wait(500);
+PlayToneEx(D5,400,VOL,FALSE); Wait(500);
+PlayToneEx(A4,400,VOL,FALSE); Wait(500);
+PlayToneEx(D4,400,VOL,FALSE); Wait(500);
+PlayToneEx(D5,400,VOL,FALSE); Wait(500);
+}
+

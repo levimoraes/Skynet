@@ -1,0 +1,342 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	18
+1	__signed_stack_003main	6	1	4	4	18
+2	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	8	4	9
+3	__signed_stack_001main	6	1	12	4	18
+4	__SPTArgsMutex	9	0	16	4	18
+5	__D0main	6	1	20	4	27
+6	____initialize_global_data_return	1	1	24	1	3
+7	__SPTArgs	8	0	5	8	54
+8	__SPTArgs.Result	2	1	28	1	54
+9	__SPTArgs.Frequency	3	1	30	2	54
+10	__SPTArgs.Duration	3	1	32	2	54
+11	__SPTArgs.Loop	1	1	34	1	54
+12	__SPTArgs.Volume	1	1	35	1	54
+#SOURCES
+Clump	Line	PC	Source
+0	40	0	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	40	2	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	40	2	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	2		set __signed_stack_001main, 220
+0	40	5	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	40	5	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	5		set __signed_stack_002main, 400
+0	40	8	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	40	8	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	8		set __signed_stack_003main, 3
+0	40	11	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	40	11	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	11		set __D0main, 0
+0	40	14	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	14		acquire __SPTArgsMutex
+0	40	15	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	15		mov __SPTArgs.Frequency, __signed_stack_001main
+0	40	17	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	17		mov __SPTArgs.Duration, __signed_stack_002main
+0	40	19	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	19		mov __SPTArgs.Volume, __signed_stack_003main
+0	40	21	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	21		mov __SPTArgs.Loop, __D0main
+0	40	23	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	23		syscall 10, __SPTArgs
+0	40	26	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	26		mov __D0main, __SPTArgs.Result
+0	40	28	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	28		release __SPTArgsMutex
+0	40	29	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	40	29	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	29		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	40	32	#line 40 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	32	#line 7921 "NXCDefs.h"
+0	7922	32		wait 500
+0	7921	34	#line 7921 "NXCDefs.h"
+0	41	34	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	34	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	34		set __signed_stack_001main, 220
+0	41	37	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	37	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	37		set __signed_stack_002main, 400
+0	41	40	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	40	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	40		set __signed_stack_003main, 3
+0	41	43	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	43	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	43		set __D0main, 0
+0	41	46	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	46		acquire __SPTArgsMutex
+0	41	47	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	47		mov __SPTArgs.Frequency, __signed_stack_001main
+0	41	49	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	49		mov __SPTArgs.Duration, __signed_stack_002main
+0	41	51	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	51		mov __SPTArgs.Volume, __signed_stack_003main
+0	41	53	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	53		mov __SPTArgs.Loop, __D0main
+0	41	55	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	55		syscall 10, __SPTArgs
+0	41	58	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	58		mov __D0main, __SPTArgs.Result
+0	41	60	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	60		release __SPTArgsMutex
+0	41	61	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	41	61	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	61		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	41	64	#line 41 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	64	#line 7921 "NXCDefs.h"
+0	7922	64		wait 500
+0	7921	66	#line 7921 "NXCDefs.h"
+0	42	66	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	66	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	66		set __signed_stack_001main, 220
+0	42	69	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	69	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	69		set __signed_stack_002main, 400
+0	42	72	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	72	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	72		set __signed_stack_003main, 3
+0	42	75	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	75	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	75		set __D0main, 0
+0	42	78	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	78		acquire __SPTArgsMutex
+0	42	79	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	79		mov __SPTArgs.Frequency, __signed_stack_001main
+0	42	81	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	81		mov __SPTArgs.Duration, __signed_stack_002main
+0	42	83	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	83		mov __SPTArgs.Volume, __signed_stack_003main
+0	42	85	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	85		mov __SPTArgs.Loop, __D0main
+0	42	87	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	87		syscall 10, __SPTArgs
+0	42	90	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	90		mov __D0main, __SPTArgs.Result
+0	42	92	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	92		release __SPTArgsMutex
+0	42	93	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	42	93	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	93		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	42	96	#line 42 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	96	#line 7921 "NXCDefs.h"
+0	7922	96		wait 500
+0	7921	98	#line 7921 "NXCDefs.h"
+0	43	98	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	98	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	98		set __signed_stack_001main, 440
+0	43	101	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	101	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	101		set __signed_stack_002main, 400
+0	43	104	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	104	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	104		set __signed_stack_003main, 3
+0	43	107	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	107	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	107		set __D0main, 0
+0	43	110	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	110		acquire __SPTArgsMutex
+0	43	111	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	111		mov __SPTArgs.Frequency, __signed_stack_001main
+0	43	113	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	113		mov __SPTArgs.Duration, __signed_stack_002main
+0	43	115	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	115		mov __SPTArgs.Volume, __signed_stack_003main
+0	43	117	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	117		mov __SPTArgs.Loop, __D0main
+0	43	119	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	119		syscall 10, __SPTArgs
+0	43	122	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	122		mov __D0main, __SPTArgs.Result
+0	43	124	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	124		release __SPTArgsMutex
+0	43	125	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	43	125	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	125		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	43	128	#line 43 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	128	#line 7921 "NXCDefs.h"
+0	7922	128		wait 500
+0	7921	130	#line 7921 "NXCDefs.h"
+0	44	130	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	130	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	130		set __signed_stack_001main, 294
+0	44	133	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	133	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	133		set __signed_stack_002main, 1600
+0	44	136	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	136	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	136		set __signed_stack_003main, 3
+0	44	139	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	139	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	139		set __D0main, 0
+0	44	142	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	142		acquire __SPTArgsMutex
+0	44	143	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	143		mov __SPTArgs.Frequency, __signed_stack_001main
+0	44	145	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	145		mov __SPTArgs.Duration, __signed_stack_002main
+0	44	147	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	147		mov __SPTArgs.Volume, __signed_stack_003main
+0	44	149	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	149		mov __SPTArgs.Loop, __D0main
+0	44	151	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	151		syscall 10, __SPTArgs
+0	44	154	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	154		mov __D0main, __SPTArgs.Result
+0	44	156	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	156		release __SPTArgsMutex
+0	44	157	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	44	157	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	157		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	44	160	#line 44 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	160	#line 7921 "NXCDefs.h"
+0	7922	160		wait 500
+0	7921	162	#line 7921 "NXCDefs.h"
+0	45	162	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	162	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	162		set __signed_stack_001main, 587
+0	45	165	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	165	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	165		set __signed_stack_002main, 400
+0	45	168	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	168	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	168		set __signed_stack_003main, 3
+0	45	171	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	171	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	171		set __D0main, 0
+0	45	174	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	174		acquire __SPTArgsMutex
+0	45	175	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	175		mov __SPTArgs.Frequency, __signed_stack_001main
+0	45	177	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	177		mov __SPTArgs.Duration, __signed_stack_002main
+0	45	179	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	179		mov __SPTArgs.Volume, __signed_stack_003main
+0	45	181	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	181		mov __SPTArgs.Loop, __D0main
+0	45	183	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	183		syscall 10, __SPTArgs
+0	45	186	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	186		mov __D0main, __SPTArgs.Result
+0	45	188	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	188		release __SPTArgsMutex
+0	45	189	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	45	189	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	189		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	45	192	#line 45 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	192	#line 7921 "NXCDefs.h"
+0	7922	192		wait 500
+0	7921	194	#line 7921 "NXCDefs.h"
+0	46	194	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	194	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	194		set __signed_stack_001main, 440
+0	46	197	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	197	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	197		set __signed_stack_002main, 400
+0	46	200	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	200	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	200		set __signed_stack_003main, 3
+0	46	203	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	203	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	203		set __D0main, 0
+0	46	206	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	206		acquire __SPTArgsMutex
+0	46	207	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	207		mov __SPTArgs.Frequency, __signed_stack_001main
+0	46	209	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	209		mov __SPTArgs.Duration, __signed_stack_002main
+0	46	211	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	211		mov __SPTArgs.Volume, __signed_stack_003main
+0	46	213	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	213		mov __SPTArgs.Loop, __D0main
+0	46	215	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	215		syscall 10, __SPTArgs
+0	46	218	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	218		mov __D0main, __SPTArgs.Result
+0	46	220	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	220		release __SPTArgsMutex
+0	46	221	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	46	221	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	221		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	46	224	#line 46 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	224	#line 7921 "NXCDefs.h"
+0	7922	224		wait 500
+0	7921	226	#line 7921 "NXCDefs.h"
+0	47	226	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	226	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	226		set __signed_stack_001main, 294
+0	47	229	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	229	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	229		set __signed_stack_002main, 400
+0	47	232	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	232	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	232		set __signed_stack_003main, 3
+0	47	235	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	235	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	235		set __D0main, 0
+0	47	238	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	238		acquire __SPTArgsMutex
+0	47	239	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	239		mov __SPTArgs.Frequency, __signed_stack_001main
+0	47	241	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	241		mov __SPTArgs.Duration, __signed_stack_002main
+0	47	243	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	243		mov __SPTArgs.Volume, __signed_stack_003main
+0	47	245	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	245		mov __SPTArgs.Loop, __D0main
+0	47	247	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	247		syscall 10, __SPTArgs
+0	47	250	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	250		mov __D0main, __SPTArgs.Result
+0	47	252	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	252		release __SPTArgsMutex
+0	47	253	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	47	253	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	253		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	47	256	#line 47 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	256	#line 7921 "NXCDefs.h"
+0	7922	256		wait 500
+0	7921	258	#line 7921 "NXCDefs.h"
+0	48	258	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	258	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	258		set __signed_stack_001main, 587
+0	48	261	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	261	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	261		set __signed_stack_002main, 400
+0	48	264	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	264	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	264		set __signed_stack_003main, 3
+0	48	267	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	267	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	267		set __D0main, 0
+0	48	270	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	270		acquire __SPTArgsMutex
+0	48	271	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	271		mov __SPTArgs.Frequency, __signed_stack_001main
+0	48	273	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	273		mov __SPTArgs.Duration, __signed_stack_002main
+0	48	275	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	275		mov __SPTArgs.Volume, __signed_stack_003main
+0	48	277	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	277		mov __SPTArgs.Loop, __D0main
+0	48	279	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	279		syscall 10, __SPTArgs
+0	48	282	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	282		mov __D0main, __SPTArgs.Result
+0	48	284	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	284		release __SPTArgsMutex
+0	48	285	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	48	285	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	49	285		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	48	288	#line 48 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	7921	288	#line 7921 "NXCDefs.h"
+0	7922	288		wait 500
+0	7921	290	#line 7921 "NXCDefs.h"
+0	49	290	#line 49 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+0	50	290		exit -1, -1
+1	52	0	#line 52 "C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc"
+1	53	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc
+1	__initialize_global_data	293	C:\Users\LEVISA~1\AppData\Local\Temp\temp.nxc
