@@ -1,0 +1,51 @@
+#define distancia  20.4627784
+#define esquerda  -4.398229715
+#define direita  4.398229715
+
+
+sub frente(int v, float graus){
+    RotateMotorEx(OUT_AB, v,graus,0,true,false);
+    Off(OUT_AB);
+    Wait(200);
+    }
+
+sub re(int v, int graus){
+    RotateMotor(OUT_AB, v,-graus);
+    Off(OUT_AB);
+    Wait(200);
+    }
+
+sub girar2(int v, int graus){
+    RotateMotor(OUT_A, v,-graus);
+    Off(OUT_A);
+    Wait(200);
+    }
+
+sub girar(int v, int graus){
+    RotateMotor(OUT_B, v,graus);
+    Off(OUT_B);
+    Wait(200);
+    }
+task main(){
+
+     SetSensorLowspeed(IN_1);
+     SetSensorTouch(IN_2);
+     OnFwd(OUT_AB,50);
+      frente(50,75*distancia);
+      OnFwd(OUT_C,-25);
+      Wait(200);
+      Off(OUT_C);
+      re(50,70*distancia);
+      Wait(10000);
+      frente(70,35*distancia);
+      girar(50, 90*direita);
+      frente(75,55*distancia);
+      girar2(50, 110*esquerda);
+      frente(75,20*distancia);
+      girar(50, 90*direita);
+      frente(75,20*distancia);
+      girar(50, 110*direita);
+      frente(75,45*distancia);
+      girar(50, 50*esquerda);
+      frente(75,100*distancia);
+}
