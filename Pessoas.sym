@@ -1,367 +1,235 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0re	6	1	0	4	2
-1	__rotate_angle1	6	1	4	4	4
-2	__DU0SetSensorLowspeed_inline_main	5	1	8	4	2
-3	__D0SetSensorLowspeed_inline_main	6	1	12	4	3
-4	__rotate_theAngle3	5	1	16	4	2
-5	__D0girar2	6	1	20	4	2
-6	__D0girar	6	1	24	4	2
-7	__D0main	6	1	28	4	4
-8	__rotate_theAngle0	5	1	32	4	2
-9	__signed_stack_001frente	6	1	36	4	2
-10	__frente_7qG2_graus_7qG2_000	10	1	40	4	9
-11	__signed_stack_001re	6	1	44	4	2
-12	__rotate_theAngle1	5	1	48	4	2
-13	__rotate_angle3	6	1	52	4	5
-14	__signed_stack_001girar2	6	1	56	4	2
-15	__float_stack_003frente	10	1	60	4	2
-16	__float_stack_002frente	10	1	64	4	2
-17	__signed_stack_001girar	6	1	68	4	2
-18	__float_stack_004frente	10	1	72	4	2
-19	__constValNegf131P94689145	10	0	76	4	1
-20	__constValf613P883352	10	0	80	4	1
-21	__constValf961P7505848	10	0	84	4	1
-22	__constValf450P1811248	10	0	88	4	1
+0	__rotate_theAngle0	5	1	0	4	2
+1	__D0girar2	6	1	4	4	2
+2	__signed_stack_001frente	6	1	8	4	2
+3	__D0girar	6	1	12	4	2
+4	__rotate_angle3	6	1	16	4	4
+5	__DF0frente	10	1	20	4	2
+6	__rotate_theAngle1	5	1	24	4	2
+7	__rotate_angle1	6	1	28	4	4
+8	__frente_7qG2_graus_7qG2_000	10	1	32	4	8
+9	__signed_stack_001girar	6	1	36	4	2
+10	__signed_stack_001girar2	6	1	40	4	2
+11	__float_stack_004frente	10	1	44	4	2
+12	__float_stack_002frente	10	1	48	4	2
+13	__float_stack_003frente	10	1	52	4	2
+14	__rotate_theAngle3	5	1	56	4	2
+15	__constValf613P883352	10	0	60	4	1
+16	__rotate_angle0	6	1	64	4	4
+17	__constValf961P7505848	10	0	68	4	1
+18	__constValNegf131P94689145	10	0	72	4	1
+19	__rotateMutex0	9	0	76	4	4
+20	__constValf1739P336164	10	0	80	4	1
+21	__constValNegf109P955742875	10	0	84	4	1
+22	__rotateMutex1	9	0	88	4	4
 23	__constValf483P80526865	10	0	92	4	1
-24	__rotateMutex0	9	0	96	4	6
-25	__constValf1739P336164	10	0	100	4	1
-26	__rotateMutex1	9	0	104	4	6
-27	__rotate_angle0	6	1	108	4	4
-28	__constValNegf109P955742875	10	0	112	4	1
-29	__constValf409P255568	10	0	116	4	1
-30	__constValf1432P394488	10	0	120	4	1
-31	__constValf716P197244	10	0	124	4	1
-32	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	128	4	2
-33	__DF0frente	10	1	132	4	2
-34	__constValf1534P70838	10	0	136	4	1
-35	__constValNegf483P80526865	10	0	140	4	1
-36	__constValf1125P452812	10	0	144	4	1
-37	__constValf395P84067435	10	0	148	4	2
-38	__rotate_OldRotCount3	4	1	152	2	2
-39	__frente_7qG2_v_7qG2_000	4	1	154	2	9
-40	__rotate_RotCount3	4	1	156	2	4
-41	__rotate_OldRotCount0	4	1	158	2	2
-42	__girar2_7qG2_graus_7qG2_000	4	1	160	2	2
-43	__girar2_7qG2_v_7qG2_000	4	1	162	2	2
-44	__rotate_RotCount0	4	1	164	2	4
-45	__girar_7qG2_graus_7qG2_000	4	1	166	2	6
-46	__girar_7qG2_v_7qG2_000	4	1	168	2	6
-47	__re_7qG2_graus_7qG2_000	4	1	170	2	2
-48	__rotate_RotCount1	4	1	172	2	4
-49	__re_7qG2_v_7qG2_000	4	1	174	2	2
-50	__rotate_OldRotCount1	4	1	176	2	2
-51	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	178	1	4
-52	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	179	1	2
-53	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	180	1	2
-54	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	181	1	2
-55	____ResetSensorSubroutine_return	1	1	182	1	4
-56	__constVal2	2	0	183	1	2
-57	__ResetSensorPort	1	1	184	1	4
-58	__ResetSensorTmp	1	1	185	1	2
-59	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	186	1	2
-60	__re_return	1	1	187	1	3
-61	__girar2_return	1	1	188	1	3
-62	__frente_return	1	1	189	1	10
-63	__constVal63	2	0	190	1	7
-64	__constVal96	2	0	191	1	11
-65	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	192	1	4
-66	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	193	1	2
-67	____initialize_global_data_return	1	1	194	1	3
-68	__girar_return	1	1	195	1	7
-69	__zfSetSensorLowspeed_inline_main	1	1	196	1	2
-70	__rotate_firstPort1	1	1	197	1	5
-71	__rotate_sync1	1	1	198	1	2
-72	__rotate_stop1	1	1	199	1	2
-73	__rotate_thePower0	2	1	200	1	4
-74	__rotate_theTurnPct0	2	1	201	1	4
-75	__rotate_power1	1	1	202	1	4
-76	__rotate_turnpct1	2	1	203	1	3
-77	__rotate_theRS1	1	1	204	1	3
-78	__rotate_theRVP1	1	1	205	1	2
-79	__rotate_theRVI1	1	1	206	1	2
-80	__rotate_theUF1	1	1	207	1	6
-81	__rotate_theOM1	1	1	208	1	7
-82	__rotate_theRM1	1	1	209	1	4
-83	__rotate_stop0	1	1	210	1	2
-84	__rotate_turnpct0	2	1	211	1	3
-85	__rotate_theUF0	1	1	212	1	6
-86	__rotate_power0	1	1	213	1	4
-87	__rotate_firstPort0	1	1	214	1	5
-88	__rotate_sync0	1	1	215	1	2
-89	__rotate_theOM0	1	1	216	1	7
-90	__rotate_theRVI0	1	1	217	1	2
-91	__rotate_theRVD0	1	1	218	1	2
-92	__rotate_rs0	1	1	219	1	2
-93	__rotate_theRM0	1	1	220	1	4
-94	__rotate_theRS0	1	1	221	1	3
-95	__rotate_theRVP0	1	1	222	1	2
-96	__rotate_theRVD1	1	1	223	1	2
-97	__rotate_rs3	1	1	224	1	2
-98	__rotate_thePower3	2	1	225	1	4
-99	__rotate_theTurnPct3	2	1	226	1	4
-100	__rotate_theRVP3	1	1	227	1	3
-101	__rotate_theRVI3	1	1	228	1	3
-102	__rotate_theRVD3	1	1	229	1	3
-103	____RotateMotor0_return	1	1	230	1	3
-104	____RotateMotor1_return	1	1	231	1	3
-105	____RotateMotor3_return	1	1	232	1	4
-106	__constVal3	2	0	233	1	7
-107	__constVal32	2	0	234	1	35
-108	__constVal1	2	0	235	1	15
-109	__constVal0	2	1	236	1	51
-110	__rotate_theRS3	1	1	237	1	3
-111	__rotate_power3	1	1	238	1	5
-112	__rotate_firstPort3	1	1	239	1	5
-113	__rotate_sync3	1	1	240	1	3
-114	__rotate_rs1	1	1	241	1	2
-115	__rotate_thePower1	2	1	242	1	4
-116	__rotate_theTurnPct1	2	1	243	1	4
-117	__rotate_theUF3	1	1	244	1	6
-118	__rotate_theRM3	1	1	245	1	4
-119	__rotate_theOM3	1	1	246	1	7
-120	__rotate_stop3	1	1	247	1	3
-121	__rotate_turnpct3	2	1	248	1	4
-122	__OUT_AB	7	0	250	4	5
-123	__OUT_AB.__OUT_AB_type	1	0	0	1	0
-124	__rotate_ports0	7	0	252	4	6
-125	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
-126	__rotate_ports3	7	0	254	4	7
-127	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
-128	__rotate_ports1	7	0	256	4	6
-129	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+24	__constValf395P84067435	10	0	96	4	2
+25	__constValNegf483P80526865	10	0	100	4	1
+26	__constValf1125P452812	10	0	104	4	1
+27	__constValf450P1811248	10	0	108	4	1
+28	__constValf409P255568	10	0	112	4	1
+29	__constValf716P197244	10	0	116	4	1
+30	__rotate_OldRotCount1	4	1	120	2	2
+31	__rotate_RotCount1	4	1	122	2	4
+32	__rotate_RotCount0	4	1	124	2	4
+33	__girar_7qG2_v_7qG2_000	4	1	126	2	6
+34	__rotate_OldRotCount0	4	1	128	2	2
+35	__rotate_OldRotCount3	4	1	130	2	2
+36	__girar_7qG2_graus_7qG2_000	4	1	132	2	6
+37	__rotate_RotCount3	4	1	134	2	4
+38	__frente_7qG2_v_7qG2_000	4	1	136	2	8
+39	__girar2_7qG2_v_7qG2_000	4	1	138	2	2
+40	__girar2_7qG2_graus_7qG2_000	4	1	140	2	2
+41	__rotate_rs3	1	1	142	1	2
+42	__constVal1	2	0	143	1	11
+43	__constVal32	2	0	144	1	21
+44	__rotate_thePower3	2	1	145	1	4
+45	__rotate_theTurnPct3	2	1	146	1	4
+46	____RotateMotor0_return	1	1	147	1	3
+47	__constVal0	2	1	148	1	33
+48	__girar2_return	1	1	149	1	3
+49	__constVal63	2	0	150	1	3
+50	____initialize_global_data_return	1	1	151	1	3
+51	__girar_return	1	1	152	1	7
+52	__constVal96	2	0	153	1	6
+53	____RotateMotor3_return	1	1	154	1	3
+54	____RotateMotor1_return	1	1	155	1	3
+55	__frente_return	1	1	156	1	9
+56	__constVal3	2	0	157	1	3
+57	__rotate_theTurnPct0	2	1	158	1	4
+58	__rotate_power1	1	1	159	1	4
+59	__rotate_thePower0	2	1	160	1	4
+60	__rotate_theRVD0	1	1	161	1	2
+61	__rotate_rs0	1	1	162	1	2
+62	__rotate_turnpct1	2	1	163	1	3
+63	__rotate_theUF1	1	1	164	1	6
+64	__rotate_stop1	1	1	165	1	2
+65	__rotate_firstPort1	1	1	166	1	5
+66	__rotate_sync1	1	1	167	1	2
+67	__rotate_theRVI0	1	1	168	1	2
+68	__rotate_stop0	1	1	169	1	2
+69	__rotate_turnpct0	2	1	170	1	3
+70	__rotate_sync0	1	1	171	1	2
+71	__rotate_power0	1	1	172	1	4
+72	__rotate_firstPort0	1	1	173	1	5
+73	__rotate_theRS0	1	1	174	1	3
+74	__rotate_theRVP0	1	1	175	1	2
+75	__rotate_theRM0	1	1	176	1	4
+76	__rotate_theUF0	1	1	177	1	6
+77	__rotate_theOM0	1	1	178	1	7
+78	__rotate_theOM1	1	1	179	1	7
+79	__rotate_turnpct3	2	1	180	1	3
+80	__rotate_theUF3	1	1	181	1	6
+81	__rotate_stop3	1	1	182	1	2
+82	__rotate_firstPort3	1	1	183	1	5
+83	__rotate_sync3	1	1	184	1	2
+84	__rotate_theOM3	1	1	185	1	7
+85	__rotate_theRVI3	1	1	186	1	2
+86	__rotate_theRVD3	1	1	187	1	2
+87	__rotate_theRVP3	1	1	188	1	2
+88	__rotate_theRM3	1	1	189	1	4
+89	__rotate_theRS3	1	1	190	1	3
+90	__rotate_theRVI1	1	1	191	1	2
+91	__rotate_theRVD1	1	1	192	1	2
+92	__rotate_theRVP1	1	1	193	1	2
+93	__rotate_theRM1	1	1	194	1	4
+94	__rotate_theRS1	1	1	195	1	3
+95	__rotate_theTurnPct1	2	1	196	1	4
+96	__rotate_power3	1	1	197	1	4
+97	__rotate_thePower1	2	1	198	1	4
+98	__rotate_rs1	1	1	199	1	2
+99	__rotate_ports3	7	0	200	4	6
+100	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
+101	__OUT_AB	7	0	202	4	2
+102	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+103	__rotate_ports1	7	0	204	4	6
+104	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+105	__rotate_ports0	7	0	206	4	6
+106	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	30	0	#line 30 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	31	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	30	2	#line 30 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	30	2	#line 30 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	31	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
-0	30	5	#line 30 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	31	5	#line 31 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	32	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
-0	3758	7	#line 3758 "NXCDefs.h"
-0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3758	9	#line 3758 "NXCDefs.h"
-0	3758	9	#line 3758 "NXCDefs.h"
-0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
-0	3758	11	#line 3758 "NXCDefs.h"
-0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
-0	3758	14	#line 3758 "NXCDefs.h"
-0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
-0	3758	17	#line 3758 "NXCDefs.h"
-0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
-0	3758	20	#line 3758 "NXCDefs.h"
-0	3759	20		jmp __004__NXC_Label_37
-0	3758	22	#line 3758 "NXCDefs.h"
-0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
-0	3758	25	#line 3758 "NXCDefs.h"
-0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
-0	3663	27	#line 3663 "NXCDefs.h"
-0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
-0	3663	31	#line 3663 "NXCDefs.h"
-0	3759	31	#line 3759 "NXCDefs.h"
-0	3759	31	#line 3759 "NXCDefs.h"
-0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3759	33	#line 3759 "NXCDefs.h"
-0	3759	33	#line 3759 "NXCDefs.h"
-0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
-0	3759	36	#line 3759 "NXCDefs.h"
-0	3676	36	#line 3676 "NXCDefs.h"
-0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
-0	3676	40	#line 3676 "NXCDefs.h"
-0	3760	40	#line 3760 "NXCDefs.h"
-0	3760	40	#line 3760 "NXCDefs.h"
-0	3760	40	#line 3760 "NXCDefs.h"
-0	3694	40	#line 3694 "NXCDefs.h"
-0	3695	40	#pragma macro 4
-0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	6858	44	#line 6858 "NXCDefs.h"
-0	3694	44	#line 3694 "NXCDefs.h"
-0	3761	44	#line 3761 "NXCDefs.h"
-0	31	44	#line 31 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	31	44	#line 31 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	32	44		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
-0	31	47	#line 31 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	3718	47	#line 3718 "NXCDefs.h"
-0	3719	47	#pragma macro 6
-0	3719	47		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
-0	3719	51		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
-0	3719	55		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
-0	3719	57		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	6873	59	#line 6873 "NXCDefs.h"
-0	3718	59	#line 3718 "NXCDefs.h"
-0	32	59	#line 32 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	32	59	#line 32 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	33	59		set __D0main, 50
-0	33	62	#line 33 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	34	62	#pragma macro 7
-0	34	62		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6881	85	#line 6881 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	33	85	#line 33 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	33	85	#line 33 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	34	85		set __frente_7qG2_v_7qG2_000, 50
-0	33	88	#line 33 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	33	88	#line 33 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	34	88		mov __frente_7qG2_graus_7qG2_000, __constValf1534P70838
-0	33	90	#line 33 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	34	90	#line 34 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	35	90		subcall frente, __frente_return
-0	34	92	#line 34 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	34	92	#line 34 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	35	92		set __D0main, -25
-0	35	95	#line 35 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	36	95	#pragma macro 7
-0	36	95		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6903	118	#line 6903 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	35	118	#line 35 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	35	118	#line 35 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	36	118		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
-0	35	121	#line 35 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	7921	121	#line 7921 "NXCDefs.h"
-0	7922	121		wait 200
-0	7921	123	#line 7921 "NXCDefs.h"
-0	36	123	#line 36 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	37	123	#line 37 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	38	123	#pragma macro 7
-0	38	123		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6920	146	#line 6920 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	37	146	#line 37 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	37	146	#line 37 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	38	146		set __re_7qG2_v_7qG2_000, 50
-0	37	149	#line 37 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	37	149	#line 37 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	38	149		mov __re_7qG2_graus_7qG2_000, __constValf1432P394488
-0	37	151	#line 37 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	38	151	#line 38 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	39	151		subcall re, __re_return
-0	38	153	#line 38 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	38	153	#line 38 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	39	153		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
-0	38	156	#line 38 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	7921	156	#line 7921 "NXCDefs.h"
-0	7922	156		wait 10000
-0	7921	158	#line 7921 "NXCDefs.h"
-0	39	158	#line 39 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	39	158	#line 39 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	40	158		set __frente_7qG2_v_7qG2_000, 70
-0	39	161	#line 39 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	39	161	#line 39 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	40	161		mov __frente_7qG2_graus_7qG2_000, __constValf716P197244
-0	39	163	#line 39 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	40	163	#line 40 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	41	163		subcall frente, __frente_return
-0	40	165	#line 40 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	40	165	#line 40 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	41	165		set __girar_7qG2_v_7qG2_000, 50
-0	40	168	#line 40 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	40	168	#line 40 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	41	168		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
-0	40	170	#line 40 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	41	170	#line 41 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	42	170		subcall girar, __girar_return
-0	41	172	#line 41 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	41	172	#line 41 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	42	172		set __frente_7qG2_v_7qG2_000, 75
-0	41	175	#line 41 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	41	175	#line 41 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	42	175		mov __frente_7qG2_graus_7qG2_000, __constValf1125P452812
-0	41	177	#line 41 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	42	177	#line 42 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	43	177		subcall frente, __frente_return
-0	42	179	#line 42 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	42	179	#line 42 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	43	179		set __girar2_7qG2_v_7qG2_000, 50
-0	42	182	#line 42 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	42	182	#line 42 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	43	182		mov __girar2_7qG2_graus_7qG2_000, __constValNegf483P80526865
-0	42	184	#line 42 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	43	184	#line 43 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	44	184		subcall girar2, __girar2_return
-0	43	186	#line 43 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	43	186	#line 43 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	44	186		set __frente_7qG2_v_7qG2_000, 75
-0	43	189	#line 43 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	43	189	#line 43 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	44	189		mov __frente_7qG2_graus_7qG2_000, __constValf409P255568
-0	43	191	#line 43 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	44	191	#line 44 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	45	191		subcall frente, __frente_return
-0	44	193	#line 44 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	44	193	#line 44 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	45	193		set __girar_7qG2_v_7qG2_000, 50
-0	44	196	#line 44 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	44	196	#line 44 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	45	196		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
-0	44	198	#line 44 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	45	198	#line 45 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	46	198		subcall girar, __girar_return
-0	45	200	#line 45 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	45	200	#line 45 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	46	200		set __frente_7qG2_v_7qG2_000, 75
-0	45	203	#line 45 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	45	203	#line 45 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	46	203		mov __frente_7qG2_graus_7qG2_000, __constValf450P1811248
-0	45	205	#line 45 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	46	205	#line 46 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	47	205		subcall frente, __frente_return
-0	46	207	#line 46 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	46	207	#line 46 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	47	207		set __girar_7qG2_v_7qG2_000, 50
-0	46	210	#line 46 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	46	210	#line 46 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	47	210		mov __girar_7qG2_graus_7qG2_000, __constValf483P80526865
-0	46	212	#line 46 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	47	212	#line 47 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	48	212		subcall girar, __girar_return
-0	47	214	#line 47 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	47	214	#line 47 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	48	214		set __frente_7qG2_v_7qG2_000, 75
-0	47	217	#line 47 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	47	217	#line 47 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	48	217		mov __frente_7qG2_graus_7qG2_000, __constValf961P7505848
-0	47	219	#line 47 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	48	219	#line 48 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	49	219		subcall frente, __frente_return
-0	48	221	#line 48 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	48	221	#line 48 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	49	221		set __girar_7qG2_v_7qG2_000, 50
-0	48	224	#line 48 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	48	224	#line 48 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	49	224		mov __girar_7qG2_graus_7qG2_000, __constValNegf131P94689145
-0	48	226	#line 48 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	49	226	#line 49 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	50	226		subcall girar, __girar_return
-0	49	228	#line 49 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	49	228	#line 49 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	50	228		set __frente_7qG2_v_7qG2_000, 75
-0	49	231	#line 49 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	49	231	#line 49 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	50	231		mov __frente_7qG2_graus_7qG2_000, __constValf613P883352
-0	49	233	#line 49 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	50	233	#line 50 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	51	233		subcall frente, __frente_return
-0	50	235	#line 50 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	50	235	#line 50 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	51	235		set __girar_7qG2_v_7qG2_000, 50
-0	50	238	#line 50 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	50	238	#line 50 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	51	238		mov __girar_7qG2_graus_7qG2_000, __constValNegf109P955742875
-0	50	240	#line 50 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	51	240	#line 51 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	52	240		subcall girar, __girar_return
-0	51	242	#line 51 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	51	242	#line 51 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	52	242		set __frente_7qG2_v_7qG2_000, 75
-0	51	245	#line 51 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	51	245	#line 51 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	52	245		mov __frente_7qG2_graus_7qG2_000, __constValf1739P336164
-0	51	247	#line 51 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	52	247	#line 52 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	53	247		subcall frente, __frente_return
-0	52	249	#line 52 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-0	53	249		exit -1, -1
+0	33	0	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	34	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	33	2	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	33	2	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	34	2		set __frente_7qG2_v_7qG2_000, 70
+0	33	5	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	33	5	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	34	5		mov __frente_7qG2_graus_7qG2_000, __constValf716P197244
+0	33	7	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	34	7	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	35	7		subcall frente, __frente_return
+0	34	9	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	34	9	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	35	9		set __girar_7qG2_v_7qG2_000, 50
+0	34	12	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	34	12	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	35	12		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
+0	34	14	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	35	14	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	36	14		subcall girar, __girar_return
+0	35	16	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	35	16	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	36	16		set __frente_7qG2_v_7qG2_000, 75
+0	35	19	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	35	19	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	36	19		mov __frente_7qG2_graus_7qG2_000, __constValf1125P452812
+0	35	21	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	36	21	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	37	21		subcall frente, __frente_return
+0	36	23	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	36	23	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	37	23		set __girar2_7qG2_v_7qG2_000, 50
+0	36	26	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	36	26	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	37	26		mov __girar2_7qG2_graus_7qG2_000, __constValNegf483P80526865
+0	36	28	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	37	28	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	38	28		subcall girar2, __girar2_return
+0	37	30	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	37	30	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	38	30		set __frente_7qG2_v_7qG2_000, 75
+0	37	33	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	37	33	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	38	33		mov __frente_7qG2_graus_7qG2_000, __constValf409P255568
+0	37	35	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	38	35	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	39	35		subcall frente, __frente_return
+0	38	37	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	38	37	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	39	37		set __girar_7qG2_v_7qG2_000, 50
+0	38	40	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	38	40	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	39	40		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
+0	38	42	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	39	42	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	40	42		subcall girar, __girar_return
+0	39	44	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	39	44	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	40	44		set __frente_7qG2_v_7qG2_000, 75
+0	39	47	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	39	47	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	40	47		mov __frente_7qG2_graus_7qG2_000, __constValf450P1811248
+0	39	49	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	40	49	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	41	49		subcall frente, __frente_return
+0	40	51	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	40	51	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	41	51		set __girar_7qG2_v_7qG2_000, 50
+0	40	54	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	40	54	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	41	54		mov __girar_7qG2_graus_7qG2_000, __constValf483P80526865
+0	40	56	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	41	56	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	42	56		subcall girar, __girar_return
+0	41	58	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	41	58	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	42	58		set __frente_7qG2_v_7qG2_000, 75
+0	41	61	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	41	61	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	42	61		mov __frente_7qG2_graus_7qG2_000, __constValf961P7505848
+0	41	63	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	42	63	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	43	63		subcall frente, __frente_return
+0	42	65	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	42	65	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	43	65		set __girar_7qG2_v_7qG2_000, 50
+0	42	68	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	42	68	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	43	68		mov __girar_7qG2_graus_7qG2_000, __constValNegf131P94689145
+0	42	70	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	43	70	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	44	70		subcall girar, __girar_return
+0	43	72	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	43	72	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	44	72		set __frente_7qG2_v_7qG2_000, 75
+0	43	75	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	43	75	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	44	75		mov __frente_7qG2_graus_7qG2_000, __constValf613P883352
+0	43	77	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	44	77	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	45	77		subcall frente, __frente_return
+0	44	79	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	44	79	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	45	79		set __girar_7qG2_v_7qG2_000, 50
+0	44	82	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	44	82	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	45	82		mov __girar_7qG2_graus_7qG2_000, __constValNegf109P955742875
+0	44	84	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	45	84	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	46	84		subcall girar, __girar_return
+0	45	86	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	45	86	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	46	86		set __frente_7qG2_v_7qG2_000, 75
+0	45	89	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	45	89	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	46	89		mov __frente_7qG2_graus_7qG2_000, __constValf1739P336164
+0	45	91	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	46	91	#line 46 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	47	91		subcall frente, __frente_return
+0	46	93	#line 46 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+0	47	93		exit -1, -1
 1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
 1	4477	3		sign __rotate_thePower0, __rotate_angle0
 1	4478	6		abs __rotate_theAngle0, __rotate_angle0
@@ -470,176 +338,131 @@ Clump	Line	PC	Source
 3	4681	144		brtst 4, __rotate_Done3, __rotate_theTurnPct3
 3	4682	147		setout __rotate_ports3, 0, __constVal32
 3	4684	152		subret ____RotateMotor3_return
-4	4885	0		setin __constVal1, __ResetSensorPort, 5
-4	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-4	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-4	4889	11		subret ____ResetSensorSubroutine_return
-5	6	0	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	7	0		mov __signed_stack_001frente, __frente_7qG2_v_7qG2_000
-5	6	2	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	6	2	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	7	2		mov __float_stack_002frente, __frente_7qG2_graus_7qG2_000
-5	6	4	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	6	4	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	7	4		mov __float_stack_003frente, __constVal0
-5	6	6	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	6	6	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	7	6		mov __float_stack_004frente, __constVal1
-5	6	8	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	6	8	#line 6 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	7	8		mov __DF0frente, __constVal0
-5	7	10	#line 7 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	8	10	#pragma macro 35
-5	8	10		acquire __rotateMutex0
-5	8	11		acquire __rotateMutex1
-5	8	12		mov __rotate_ports3, __OUT_AB
-5	8	14		mov __rotate_power3, __signed_stack_001frente
-5	8	16		mov __rotate_angle3, __float_stack_002frente
-5	8	18		mov __rotate_turnpct3, __float_stack_003frente
-5	8	20		mov __rotate_sync3, __float_stack_004frente
-5	8	22		mov __rotate_stop3, __DF0frente
-5	8	24		mov __rotate_theRVP3, __constVal32
-5	8	26		mov __rotate_theRVI3, __constVal0
-5	8	28		mov __rotate_theRVD3, __constVal96
-5	8	30		subcall __RotateMotor3, ____RotateMotor3_return
-5	8	32		release __rotateMutex1
-5	8	33		release __rotateMutex0
-5	6598	34	#line 6598 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	7	34	#line 7 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	8	34	#line 8 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	9	34	#pragma macro 7
-5	9	34		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	6601	57	#line 6601 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	8	57	#line 8 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	8	57	#line 8 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	8	57	#line 8 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	7921	57	#line 7921 "NXCDefs.h"
-5	7922	57		wait 200
-5	7921	59	#line 7921 "NXCDefs.h"
-5	9	59	#line 9 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	11	59	#line 11 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-5	12	59		subret __frente_return
-6	12	0	#line 12 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	13	0		mov __signed_stack_001re, __re_7qG2_v_7qG2_000
-6	12	2	#line 12 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	12	2	#line 12 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	12	2	#line 12 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	12	2	#line 12 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	12	2	#line 12 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	13	2		sub __D0re, __constVal0, __re_7qG2_graus_7qG2_000
-6	13	6	#line 13 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	14	6	#pragma macro 35
-6	14	6		acquire __rotateMutex0
-6	14	7		acquire __rotateMutex1
-6	14	8		mov __rotate_ports3, __OUT_AB
-6	14	10		mov __rotate_power3, __signed_stack_001re
-6	14	12		mov __rotate_angle3, __D0re
-6	14	14		mov __rotate_turnpct3, __constVal0
-6	14	16		mov __rotate_sync3, __constVal0
-6	14	18		mov __rotate_stop3, __constVal1
-6	14	20		mov __rotate_theRVP3, __constVal32
-6	14	22		mov __rotate_theRVI3, __constVal0
-6	14	24		mov __rotate_theRVD3, __constVal96
-6	14	26		subcall __RotateMotor3, ____RotateMotor3_return
-6	14	28		release __rotateMutex1
-6	14	29		release __rotateMutex0
-6	6647	30	#line 6647 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	13	30	#line 13 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	14	30	#line 14 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	15	30	#pragma macro 7
-6	15	30		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	6650	53	#line 6650 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	14	53	#line 14 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	14	53	#line 14 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	14	53	#line 14 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
+4	6	0	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	7	0		mov __signed_stack_001frente, __frente_7qG2_v_7qG2_000
+4	6	2	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	6	2	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	7	2		mov __float_stack_002frente, __frente_7qG2_graus_7qG2_000
+4	6	4	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	6	4	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	7	4		mov __float_stack_003frente, __constVal0
+4	6	6	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	6	6	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	7	6		mov __float_stack_004frente, __constVal1
+4	6	8	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	6	8	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	7	8		mov __DF0frente, __constVal0
+4	7	10	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	8	10	#pragma macro 35
+4	8	10		acquire __rotateMutex0
+4	8	11		acquire __rotateMutex1
+4	8	12		mov __rotate_ports3, __OUT_AB
+4	8	14		mov __rotate_power3, __signed_stack_001frente
+4	8	16		mov __rotate_angle3, __float_stack_002frente
+4	8	18		mov __rotate_turnpct3, __float_stack_003frente
+4	8	20		mov __rotate_sync3, __float_stack_004frente
+4	8	22		mov __rotate_stop3, __DF0frente
+4	8	24		mov __rotate_theRVP3, __constVal32
+4	8	26		mov __rotate_theRVI3, __constVal0
+4	8	28		mov __rotate_theRVD3, __constVal96
+4	8	30		subcall __RotateMotor3, ____RotateMotor3_return
+4	8	32		release __rotateMutex1
+4	8	33		release __rotateMutex0
+4	6364	34	#line 6364 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	7	34	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	8	34	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	9	34	#pragma macro 7
+4	9	34		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6367	57	#line 6367 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	7921	57	#line 7921 "NXCDefs.h"
+4	7922	57		wait 200
+4	7921	59	#line 7921 "NXCDefs.h"
+4	9	59	#line 9 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	11	59	#line 11 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+4	12	59		subret __frente_return
+5	18	0	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	19	0		mov __signed_stack_001girar2, __girar2_7qG2_v_7qG2_000
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	19	2		sub __D0girar2, __constVal0, __girar2_7qG2_graus_7qG2_000
+5	19	6	#line 19 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	20	6	#pragma macro 33
+5	20	6		acquire __rotateMutex0
+5	20	7		arrbuild __rotate_ports0, __constVal0
+5	20	11		mov __rotate_power0, __signed_stack_001girar2
+5	20	13		mov __rotate_angle0, __D0girar2
+5	20	15		mov __rotate_turnpct0, __constVal0
+5	20	17		mov __rotate_sync0, __constVal0
+5	20	19		mov __rotate_stop0, __constVal1
+5	20	21		mov __rotate_theRVP0, __constVal32
+5	20	23		mov __rotate_theRVI0, __constVal0
+5	20	25		mov __rotate_theRVD0, __constVal96
+5	20	27		subcall __RotateMotor0, ____RotateMotor0_return
+5	20	29		release __rotateMutex0
+5	6462	30	#line 6462 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	19	30	#line 19 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	20	30	#line 20 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	21	30	#pragma macro 7
+5	21	30		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6465	53	#line 6465 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	20	53	#line 20 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	20	53	#line 20 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	20	53	#line 20 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	7921	53	#line 7921 "NXCDefs.h"
+5	7922	53		wait 200
+5	7921	55	#line 7921 "NXCDefs.h"
+5	21	55	#line 21 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	23	55	#line 23 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+5	24	55		subret __girar2_return
+6	24	0	#line 24 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	25	0		mov __signed_stack_001girar, __girar_7qG2_v_7qG2_000
+6	24	2	#line 24 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	24	2	#line 24 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	25	2		mov __D0girar, __girar_7qG2_graus_7qG2_000
+6	25	4	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	26	4	#pragma macro 33
+6	26	4		acquire __rotateMutex1
+6	26	5		arrbuild __rotate_ports1, __constVal1
+6	26	9		mov __rotate_power1, __signed_stack_001girar
+6	26	11		mov __rotate_angle1, __D0girar
+6	26	13		mov __rotate_turnpct1, __constVal0
+6	26	15		mov __rotate_sync1, __constVal0
+6	26	17		mov __rotate_stop1, __constVal1
+6	26	19		mov __rotate_theRVP1, __constVal32
+6	26	21		mov __rotate_theRVI1, __constVal0
+6	26	23		mov __rotate_theRVD1, __constVal96
+6	26	25		subcall __RotateMotor1, ____RotateMotor1_return
+6	26	27		release __rotateMutex1
+6	6505	28	#line 6505 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	25	28	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	26	28	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	27	28	#pragma macro 7
+6	27	28		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6508	51	#line 6508 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	26	51	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	26	51	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	26	51	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	7921	51	#line 7921 "NXCDefs.h"
+6	7922	51		wait 200
 6	7921	53	#line 7921 "NXCDefs.h"
-6	7922	53		wait 200
-6	7921	55	#line 7921 "NXCDefs.h"
-6	15	55	#line 15 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	17	55	#line 17 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-6	18	55		subret __re_return
-7	18	0	#line 18 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	19	0		mov __signed_stack_001girar2, __girar2_7qG2_v_7qG2_000
-7	18	2	#line 18 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	18	2	#line 18 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	18	2	#line 18 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	18	2	#line 18 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	18	2	#line 18 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	19	2		sub __D0girar2, __constVal0, __girar2_7qG2_graus_7qG2_000
-7	19	6	#line 19 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	20	6	#pragma macro 33
-7	20	6		acquire __rotateMutex0
-7	20	7		arrbuild __rotate_ports0, __constVal0
-7	20	11		mov __rotate_power0, __signed_stack_001girar2
-7	20	13		mov __rotate_angle0, __D0girar2
-7	20	15		mov __rotate_turnpct0, __constVal0
-7	20	17		mov __rotate_sync0, __constVal0
-7	20	19		mov __rotate_stop0, __constVal1
-7	20	21		mov __rotate_theRVP0, __constVal32
-7	20	23		mov __rotate_theRVI0, __constVal0
-7	20	25		mov __rotate_theRVD0, __constVal96
-7	20	27		subcall __RotateMotor0, ____RotateMotor0_return
-7	20	29		release __rotateMutex0
-7	6696	30	#line 6696 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	19	30	#line 19 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	20	30	#line 20 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	21	30	#pragma macro 7
-7	21	30		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	6699	53	#line 6699 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	20	53	#line 20 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	20	53	#line 20 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	20	53	#line 20 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	7921	53	#line 7921 "NXCDefs.h"
-7	7922	53		wait 200
-7	7921	55	#line 7921 "NXCDefs.h"
-7	21	55	#line 21 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	23	55	#line 23 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-7	24	55		subret __girar2_return
-8	24	0	#line 24 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	25	0		mov __signed_stack_001girar, __girar_7qG2_v_7qG2_000
-8	24	2	#line 24 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	24	2	#line 24 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	25	2		mov __D0girar, __girar_7qG2_graus_7qG2_000
-8	25	4	#line 25 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	26	4	#pragma macro 33
-8	26	4		acquire __rotateMutex1
-8	26	5		arrbuild __rotate_ports1, __constVal1
-8	26	9		mov __rotate_power1, __signed_stack_001girar
-8	26	11		mov __rotate_angle1, __D0girar
-8	26	13		mov __rotate_turnpct1, __constVal0
-8	26	15		mov __rotate_sync1, __constVal0
-8	26	17		mov __rotate_stop1, __constVal1
-8	26	19		mov __rotate_theRVP1, __constVal32
-8	26	21		mov __rotate_theRVI1, __constVal0
-8	26	23		mov __rotate_theRVD1, __constVal96
-8	26	25		subcall __RotateMotor1, ____RotateMotor1_return
-8	26	27		release __rotateMutex1
-8	6739	28	#line 6739 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	25	28	#line 25 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	26	28	#line 26 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	27	28	#pragma macro 7
-8	27	28		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-8	6742	51	#line 6742 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	26	51	#line 26 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	26	51	#line 26 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	26	51	#line 26 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	7921	51	#line 7921 "NXCDefs.h"
-8	7922	51		wait 200
-8	7921	53	#line 7921 "NXCDefs.h"
-8	27	53	#line 27 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	28	53	#line 28 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-8	29	53		subret __girar_return
-9	55	0	#line 55 "\\psf\Home\Documents\Skynet\Pessoas.nxc"
-9	56	0		subret ____initialize_global_data_return
+6	27	53	#line 27 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	28	53	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+6	29	53		subret __girar_return
+7	49	0	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc"
+7	50	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	\\psf\Home\Documents\Skynet\Pessoas.nxc
-1	__RotateMotor0	252	NXTDefs.h
-2	__RotateMotor1	406	NXTDefs.h
-3	__RotateMotor3	560	NXTDefs.h
-4	__ResetSensorSubroutine	714	NXTDefs.h
-5	frente	727	\\psf\Home\Documents\Skynet\Pessoas.nxc
-6	re	788	\\psf\Home\Documents\Skynet\Pessoas.nxc
-7	girar2	845	\\psf\Home\Documents\Skynet\Pessoas.nxc
-8	girar	902	\\psf\Home\Documents\Skynet\Pessoas.nxc
-9	__initialize_global_data	957	\\psf\Home\Documents\Skynet\Pessoas.nxc
+0	main	0	G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc
+1	__RotateMotor0	96	NXTDefs.h
+2	__RotateMotor1	250	NXTDefs.h
+3	__RotateMotor3	404	NXTDefs.h
+4	frente	558	G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc
+5	girar2	619	G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc
+6	girar	676	G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc
+7	__initialize_global_data	731	G:\Principios de Robótica Educacional\programas_lego\Pessoas.nxc

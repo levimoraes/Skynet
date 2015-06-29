@@ -28,15 +28,9 @@ sub girar(int v, int graus){
     }
 task main(){
 
-     SetSensorLowspeed(IN_1);
-     SetSensorTouch(IN_2);
-     OnFwd(OUT_AB,50);
-      frente(50,77*distancia);
-      OnFwd(OUT_C,-25);
-      Wait(200);
-      Off(OUT_C);
-      re(50,70*distancia);
-      Wait(12000);
+     //SetSensorLowspeed(IN_1);
+     //SetSensorTouch(IN_2);
+
       frente(70,35*distancia); //1
       girar(50, 90*direita);   //2
       frente(75,55*distancia); //3
@@ -47,7 +41,8 @@ task main(){
       girar(50, 110*direita);   //8
       frente(75,47*distancia);  //9
       girar(50, 30*esquerda);   //10
-      frente(75,30*distancia);  //11
-      girar(50, 25*esquerda);   //12
-      frente(75,85*distancia);  //13
+      frente(75,27*distancia);  //11
+      girar(50, 50*esquerda);   //12
+      frente(75,75*distancia);  //13
+      girar(50, 40*direita);    //14
 }

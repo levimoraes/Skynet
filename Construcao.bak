@@ -1,0 +1,69 @@
+//Missão Levar Carrinho
+
+#define distancia  20.4627784
+#define esquerda  -4.398229715
+#define direita  4.398229715
+
+
+sub frente(int v, float graus){
+    RotateMotorEx(OUT_AB, v,graus,0,true,false);
+    //Float(OUT_AB);
+    Off(OUT_AB);
+    Wait(200);
+    }
+
+sub re(int v, int graus){
+    RotateMotor(OUT_AB, v,-graus);
+    //Float(OUT_AB);
+    Off(OUT_AB);
+    Wait(200);
+    }
+
+sub girar(int v, int graus){
+    RotateMotor(OUT_B, v,graus);
+    //Float(OUT_B);
+    Off(OUT_B);
+    Wait(200);
+    }
+
+task main(){
+        SetSensorLowspeed(IN_1);
+     //frente(75, 70*distancia);
+      //girar(50, 30*direita);
+     // frente(75, 100*distancia);
+      //girar(50, 96*esquerda);
+      //frente(50, 60*distancia);
+       frente(75, 40*distancia);
+          girar(50, 90*direita);
+          
+            OnFwd(OUT_AB,75);
+              int x=0;
+     while(true){
+         if(SensorUS(IN_1)<58 && x==0){
+            Off(OUT_AB);
+            Wait(200);
+            girar(50, 90*esquerda);
+            OnFwd(OUT_AB,75);
+            x=1;
+         }
+         if(SensorUS(IN_1)<25 && x==1){
+              Off(OUT_AB);
+              Wait(200);
+              girar(75, 235*esquerda);
+              frente(50, 35*distancia);
+              girar(50, 15*direita);
+              OnFwd(OUT_C,20);
+              Wait(550);
+              Off(OUT_A);
+              re(50,20*distancia);
+              Wait(10000);
+         }
+
+     }
+     //girar(75, 90*direita);
+     //frente(75, 150*distancia);
+     //girar(75, 75*esquerda);
+     //frente(75, 35*distancia);
+
+//}
+}

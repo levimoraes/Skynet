@@ -1,0 +1,423 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0re	6	1	0	4	2
+1	__D0main	6	1	4	4	13
+2	__signed_stack_001frente	6	1	8	4	2
+3	__float_stack_003frente	10	1	12	4	2
+4	__float_stack_002frente	10	1	16	4	2
+5	__rotate_angle3	6	1	20	4	5
+6	__rotate_theAngle1	5	1	24	4	2
+7	__rotate_theAngle3	5	1	28	4	2
+8	__D0girar	6	1	32	4	2
+9	__DF0frente	10	1	36	4	2
+10	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	40	4	3
+11	__constValf1432P394488	10	0	44	4	1
+12	__constValf1023P13892	10	0	48	4	1
+13	__constValf409P255568	10	0	52	4	1
+14	__constValf131P94689145	10	0	56	4	1
+15	__signed_stack_001girar	6	1	60	4	2
+16	__float_stack_004frente	10	1	64	4	2
+17	__signed_stack_001main	6	1	68	4	2
+18	__frente_7qG2_graus_7qG2_000	10	1	72	4	2
+19	__signed_stack_001re	6	1	76	4	2
+20	__rotateMutex1	9	0	80	4	6
+21	__rotate_angle1	6	1	84	4	4
+22	__rotateMutex0	9	0	88	4	4
+23	__re_7qG2_v_7qG2_000	4	1	92	2	3
+24	__girar_7qG2_v_7qG2_000	4	1	94	2	2
+25	__re_7qG2_graus_7qG2_000	4	1	96	2	3
+26	__rotate_RotCount3	4	1	98	2	4
+27	__rotate_OldRotCount3	4	1	100	2	2
+28	__frente_7qG2_v_7qG2_000	4	1	102	2	2
+29	__girar_7qG2_graus_7qG2_000	4	1	104	2	2
+30	__rotate_RotCount1	4	1	106	2	4
+31	__rotate_OldRotCount1	4	1	108	2	2
+32	__rotate_stop1	1	1	110	1	2
+33	__rotate_theUF1	1	1	111	1	6
+34	__rotate_turnpct1	2	1	112	1	3
+35	__rotate_theRVD1	1	1	113	1	2
+36	__rotate_theRVP1	1	1	114	1	2
+37	__rotate_theRS1	1	1	115	1	3
+38	__zfmain	1	1	116	1	5
+39	__rotate_theOM1	1	1	117	1	7
+40	__rotate_theRM1	1	1	118	1	4
+41	__rotate_theRVI1	1	1	119	1	2
+42	__girar_return	1	1	120	1	3
+43	__re_return	1	1	121	1	4
+44	____initialize_global_data_return	1	1	122	1	3
+45	__rotate_power1	1	1	123	1	4
+46	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	124	1	4
+47	__rotate_firstPort1	1	1	125	1	5
+48	__rotate_sync1	1	1	126	1	2
+49	__frente_return	1	1	127	1	3
+50	__constVal63	2	0	128	1	8
+51	__constVal96	2	0	129	1	11
+52	__constVal2	2	0	130	1	5
+53	__rotate_theRM3	1	1	131	1	4
+54	__rotate_theOM3	1	1	132	1	7
+55	__rotate_theUF3	1	1	133	1	6
+56	__rotate_theRS3	1	1	134	1	3
+57	__rotate_theRVD3	1	1	135	1	3
+58	__rotate_theRVI3	1	1	136	1	3
+59	__rotate_theRVP3	1	1	137	1	3
+60	__rotate_power3	1	1	138	1	5
+61	__rotate_theTurnPct1	2	1	139	1	4
+62	__rotate_thePower1	2	1	140	1	4
+63	__rotate_firstPort3	1	1	141	1	5
+64	__rotate_turnpct3	2	1	142	1	4
+65	__rotate_stop3	1	1	143	1	3
+66	__rotate_sync3	1	1	144	1	3
+67	____RotateMotor3_return	1	1	145	1	4
+68	____RotateMotor1_return	1	1	146	1	3
+69	__constVal0	2	1	147	1	44
+70	__constVal3	2	0	148	1	8
+71	____ResetSensorSubroutine_return	1	1	149	1	3
+72	__ResetSensorTmp	1	1	150	1	2
+73	__ResetSensorPort	1	1	151	1	3
+74	__rotate_rs1	1	1	152	1	2
+75	__rotate_thePower3	2	1	153	1	4
+76	__rotate_rs3	1	1	154	1	2
+77	__constVal32	2	0	155	1	34
+78	__constVal1	2	0	156	1	12
+79	__rotate_theTurnPct3	2	1	157	1	4
+80	__OUT_AB	7	0	158	4	4
+81	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+82	__rotate_ports1	7	0	160	4	6
+83	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+84	__rotate_ports3	7	0	162	4	7
+85	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	24	0	#line 24 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	25	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	24	2	#line 24 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	24	2	#line 24 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	25	2		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	24	5	#line 24 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	3718	5	#line 3718 "NXCDefs.h"
+0	3719	5	#pragma macro 6
+0	3719	5		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	9		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	13		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6495	17	#line 6495 "NXCDefs.h"
+0	3718	17	#line 3718 "NXCDefs.h"
+0	25	17	#line 25 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	25	17	#line 25 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	26	17		set __frente_7qG2_v_7qG2_000, 75
+0	25	20	#line 25 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	25	20	#line 25 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	26	20		mov __frente_7qG2_graus_7qG2_000, __constValf1432P394488
+0	25	22	#line 25 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	26	22	#line 26 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	27	22		subcall frente, __frente_return
+0	26	24	#line 26 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	26	24	#line 26 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	27	24		set __D0main, 50
+0	27	27	#line 27 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	28	27	#pragma macro 7
+0	28	27		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6518	50	#line 6518 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	27	50	#line 27 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	27	50	#line 27 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	28	50		set __D0main, 1
+0	28	53	#line 28 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	29	53		tst 5, __zfmain, __D0main
+0	28	56	#line 28 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	29	56		brtst 4, __NXC_Label_637, __zfmain
+0	28	59	#line 28 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	29	59		getin __signed_stack_001main, __constVal1, 4
+0	28	63	#line 28 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	28	63	#line 28 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	29	63		set __D0main, 1
+0	28	66	#line 28 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	29	66		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	28	70	#line 28 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	29	70		mov __D0main, __zfmain
+0	29	72	#line 29 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	30	72		brtst 4, __NXC_Label_642, __zfmain
+0	29	75	#line 29 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	30	75		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	29	78	#line 29 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	7921	78	#line 7921 "NXCDefs.h"
+0	7922	78		wait 200
+0	7921	80	#line 7921 "NXCDefs.h"
+0	30	80	#line 30 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	30	80	#line 30 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	31	80		set __D0main, -50
+0	31	83	#line 31 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	32	83	#pragma macro 7
+0	32	83		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6562	106	#line 6562 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	31	106	#line 31 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	31	106	#line 31 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	32	106		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	31	109	#line 31 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	7921	109	#line 7921 "NXCDefs.h"
+0	7922	109		wait 200
+0	7921	111	#line 7921 "NXCDefs.h"
+0	32	111	#line 32 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	32	111	#line 32 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	33	111		set __D0main, 50
+0	33	114	#line 33 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	34	114	#pragma macro 7
+0	34	114		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6579	137	#line 6579 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	33	137	#line 33 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	33	137	#line 33 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	34	137		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	33	140	#line 33 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	7921	140	#line 7921 "NXCDefs.h"
+0	7922	140		wait 200
+0	7921	142	#line 7921 "NXCDefs.h"
+0	34	142	#line 34 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	34	142	#line 34 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	35	142		set __D0main, -50
+0	35	145	#line 35 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	36	145	#pragma macro 7
+0	36	145		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6596	168	#line 6596 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	35	168	#line 35 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	36	168	#line 36 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	37	168	#pragma macro 7
+0	37	168		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6599	191	#line 6599 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	36	191	#line 36 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	36	191	#line 36 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	37	191		set __re_7qG2_v_7qG2_000, 75
+0	36	194	#line 36 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	36	194	#line 36 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	37	194		mov __re_7qG2_graus_7qG2_000, __constValf1023P13892
+0	36	196	#line 36 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	37	196	#line 37 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	38	196		subcall re, __re_return
+0	37	198	#line 37 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	37	198	#line 37 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	38	198		set __girar_7qG2_v_7qG2_000, 75
+0	37	201	#line 37 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	37	201	#line 37 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	38	201		mov __girar_7qG2_graus_7qG2_000, __constValf131P94689145
+0	37	203	#line 37 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	38	203	#line 38 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	39	203		subcall girar, __girar_return
+0	38	205	#line 38 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	38	205	#line 38 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	39	205		set __re_7qG2_v_7qG2_000, 75
+0	38	208	#line 38 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	38	208	#line 38 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	39	208		mov __re_7qG2_graus_7qG2_000, __constValf409P255568
+0	38	210	#line 38 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	39	210	#line 39 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	40	210		subcall re, __re_return
+0	39	212	#line 39 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	41	212	#line 41 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	43	212	#line 43 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	44	212		jmp __NXC_Label_636
+0	43	214	#line 43 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+0	44	214		exit -1, -1
+1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	4530	3		sign __rotate_thePower1, __rotate_angle1
+1	4531	6		abs __rotate_theAngle1, __rotate_angle1
+1	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	13		set __rotate_theUF1, 23
+1	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	19		set __rotate_theOM1, 7
+1	4537	22		set __rotate_theRM1, 2
+1	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	34		jmp __rotate_Start1
+1	4543	36		set __rotate_theOM1, 3
+1	4544	39		set __rotate_theRM1, 0
+1	4545	42		set __rotate_theTurnPct1, 0
+1	4547	45		set __rotate_theRS1, 32
+1	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	93		set __rotate_theOM1, 7
+1	4561	96		set __rotate_theUF1, 7
+1	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	120		wait 50
+1	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	130		set __rotate_theOM1, 4
+1	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	147		setout __rotate_ports1, 0, __constVal32
+1	4578	152		subret ____RotateMotor1_return
+2	4635	0		brtst 4, __rotate_Done3, __rotate_angle3
+2	4636	3		sign __rotate_thePower3, __rotate_angle3
+2	4637	6		abs __rotate_theAngle3, __rotate_angle3
+2	4638	9		mul __rotate_thePower3, __rotate_thePower3, __rotate_power3
+2	4640	13		set __rotate_theUF3, 23
+2	4641	16		brtst 4, __rotate_NoSync3, __rotate_sync3
+2	4642	19		set __rotate_theOM3, 7
+2	4643	22		set __rotate_theRM3, 2
+2	4644	25		mov __rotate_theTurnPct3, __rotate_turnpct3
+2	4645	27		brtst 4, __rotate_Start3, __rotate_theTurnPct3
+2	4646	30		add __rotate_theUF3, __rotate_theUF3, __constVal32
+2	4647	34		jmp __rotate_Start3
+2	4649	36		set __rotate_theOM3, 3
+2	4650	39		set __rotate_theRM3, 0
+2	4651	42		set __rotate_theTurnPct3, 0
+2	4653	45		set __rotate_theRS3, 32
+2	4654	48		setout __rotate_ports3, 1, __rotate_theOM3, 8, __rotate_theRM3, 5, __rotate_theAngle3, 6, __rotate_theRS3, 10, __rotate_theRVP3, 11, __rotate_theRVI3, 12, __rotate_theRVD3, 2, __rotate_thePower3, 7, __rotate_turnpct3, 0, __rotate_theUF3
+2	4657	71		index __rotate_firstPort3, __rotate_ports3, 65535
+2	4659	75		getout __rotate_power3, __rotate_firstPort3, 2
+2	4660	79		brtst 4, __rotate_doneRunning3, __rotate_power3
+2	4661	82		getout __rotate_rs3, __rotate_firstPort3, 6
+2	4662	86		brcmp 4, __rotate_Running3, __rotate_rs3, __constVal32
+2	4664	90		brtst 4, __rotate_Reset3, __rotate_stop3
+2	4666	93		set __rotate_theOM3, 7
+2	4667	96		set __rotate_theUF3, 7
+2	4668	99		setout __rotate_ports3, 1, __rotate_theOM3, 8, __constVal1, 6, __rotate_theRS3, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF3
+2	4670	114		getout __rotate_RotCount3, __rotate_firstPort3, 14
+2	4672	118		mov __rotate_OldRotCount3, __rotate_RotCount3
+2	4673	120		wait 50
+2	4675	122		getout __rotate_RotCount3, __rotate_firstPort3, 14
+2	4676	126		brcmp 5, __rotate_Stabilize3, __rotate_OldRotCount3, __rotate_RotCount3
+2	4677	130		set __rotate_theOM3, 4
+2	4678	133		setout __rotate_ports3, 8, __rotate_theRM3, 6, __constVal0, 1, __rotate_theOM3, 0, __constVal1
+2	4681	144		brtst 4, __rotate_Done3, __rotate_theTurnPct3
+2	4682	147		setout __rotate_ports3, 0, __constVal32
+2	4684	152		subret ____RotateMotor3_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	6	0	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	7	0		mov __signed_stack_001frente, __frente_7qG2_v_7qG2_000
+4	6	2	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	6	2	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	7	2		mov __float_stack_002frente, __frente_7qG2_graus_7qG2_000
+4	6	4	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	6	4	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	7	4		mov __float_stack_003frente, __constVal0
+4	6	6	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	6	6	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	7	6		mov __float_stack_004frente, __constVal1
+4	6	8	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	6	8	#line 6 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	7	8		mov __DF0frente, __constVal0
+4	7	10	#line 7 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	8	10	#pragma macro 35
+4	8	10		acquire __rotateMutex0
+4	8	11		acquire __rotateMutex1
+4	8	12		mov __rotate_ports3, __OUT_AB
+4	8	14		mov __rotate_power3, __signed_stack_001frente
+4	8	16		mov __rotate_angle3, __float_stack_002frente
+4	8	18		mov __rotate_turnpct3, __float_stack_003frente
+4	8	20		mov __rotate_sync3, __float_stack_004frente
+4	8	22		mov __rotate_stop3, __DF0frente
+4	8	24		mov __rotate_theRVP3, __constVal32
+4	8	26		mov __rotate_theRVI3, __constVal0
+4	8	28		mov __rotate_theRVD3, __constVal96
+4	8	30		subcall __RotateMotor3, ____RotateMotor3_return
+4	8	32		release __rotateMutex1
+4	8	33		release __rotateMutex0
+4	6364	34	#line 6364 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	7	34	#line 7 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	8	34	#line 8 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	9	34	#pragma macro 7
+4	9	34		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6367	57	#line 6367 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	8	57	#line 8 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	8	57	#line 8 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	8	57	#line 8 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	7921	57	#line 7921 "NXCDefs.h"
+4	7922	57		wait 200
+4	7921	59	#line 7921 "NXCDefs.h"
+4	9	59	#line 9 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	11	59	#line 11 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+4	12	59		subret __frente_return
+5	12	0	#line 12 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	13	0		mov __signed_stack_001re, __re_7qG2_v_7qG2_000
+5	12	2	#line 12 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	12	2	#line 12 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	12	2	#line 12 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	12	2	#line 12 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	12	2	#line 12 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	13	2		sub __D0re, __constVal0, __re_7qG2_graus_7qG2_000
+5	13	6	#line 13 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	14	6	#pragma macro 35
+5	14	6		acquire __rotateMutex0
+5	14	7		acquire __rotateMutex1
+5	14	8		mov __rotate_ports3, __OUT_AB
+5	14	10		mov __rotate_power3, __signed_stack_001re
+5	14	12		mov __rotate_angle3, __D0re
+5	14	14		mov __rotate_turnpct3, __constVal0
+5	14	16		mov __rotate_sync3, __constVal0
+5	14	18		mov __rotate_stop3, __constVal1
+5	14	20		mov __rotate_theRVP3, __constVal32
+5	14	22		mov __rotate_theRVI3, __constVal0
+5	14	24		mov __rotate_theRVD3, __constVal96
+5	14	26		subcall __RotateMotor3, ____RotateMotor3_return
+5	14	28		release __rotateMutex1
+5	14	29		release __rotateMutex0
+5	6413	30	#line 6413 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	13	30	#line 13 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	14	30	#line 14 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	15	30	#pragma macro 7
+5	15	30		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6416	53	#line 6416 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	14	53	#line 14 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	14	53	#line 14 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	14	53	#line 14 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	7921	53	#line 7921 "NXCDefs.h"
+5	7922	53		wait 200
+5	7921	55	#line 7921 "NXCDefs.h"
+5	15	55	#line 15 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	17	55	#line 17 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+5	18	55		subret __re_return
+6	18	0	#line 18 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	19	0		mov __signed_stack_001girar, __girar_7qG2_v_7qG2_000
+6	18	2	#line 18 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	18	2	#line 18 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	19	2		mov __D0girar, __girar_7qG2_graus_7qG2_000
+6	19	4	#line 19 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	20	4	#pragma macro 33
+6	20	4		acquire __rotateMutex1
+6	20	5		arrbuild __rotate_ports1, __constVal1
+6	20	9		mov __rotate_power1, __signed_stack_001girar
+6	20	11		mov __rotate_angle1, __D0girar
+6	20	13		mov __rotate_turnpct1, __constVal0
+6	20	15		mov __rotate_sync1, __constVal0
+6	20	17		mov __rotate_stop1, __constVal1
+6	20	19		mov __rotate_theRVP1, __constVal32
+6	20	21		mov __rotate_theRVI1, __constVal0
+6	20	23		mov __rotate_theRVD1, __constVal96
+6	20	25		subcall __RotateMotor1, ____RotateMotor1_return
+6	20	27		release __rotateMutex1
+6	6456	28	#line 6456 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	19	28	#line 19 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	20	28	#line 20 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	21	28	#pragma macro 7
+6	21	28		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6459	51	#line 6459 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	20	51	#line 20 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	20	51	#line 20 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	20	51	#line 20 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	7921	51	#line 7921 "NXCDefs.h"
+6	7922	51		wait 200
+6	7921	53	#line 7921 "NXCDefs.h"
+6	21	53	#line 21 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	23	53	#line 23 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+6	24	53		subret __girar_return
+7	44	0	#line 44 "C:\Users\levisantos\Documents\programas_lego\arvore.nxc"
+7	45	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\levisantos\Documents\programas_lego\arvore.nxc
+1	__RotateMotor1	217	NXTDefs.h
+2	__RotateMotor3	371	NXTDefs.h
+3	__ResetSensorSubroutine	525	NXTDefs.h
+4	frente	538	C:\Users\levisantos\Documents\programas_lego\arvore.nxc
+5	re	599	C:\Users\levisantos\Documents\programas_lego\arvore.nxc
+6	girar	656	C:\Users\levisantos\Documents\programas_lego\arvore.nxc
+7	__initialize_global_data	711	C:\Users\levisantos\Documents\programas_lego\arvore.nxc

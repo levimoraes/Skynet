@@ -4,61 +4,33 @@
 #define esquerda  -4.398229715
 #define direita  4.398229715
 
-
 sub frente(int v, float graus){
     RotateMotorEx(OUT_AB, v,graus,0,true,false);
-    //Float(OUT_AB);
     Off(OUT_AB);
     Wait(200);
     }
 
 sub re(int v, int graus){
     RotateMotor(OUT_AB, v,-graus);
-    //Float(OUT_AB);
     Off(OUT_AB);
     Wait(200);
     }
     
 sub girar(int v, int graus){
     RotateMotor(OUT_B, v,graus);
-    //Float(OUT_B);
     Off(OUT_B);
     Wait(200);
     }
 
-task music() {
-  while (true)  {
-      PlayTone(262,40);  Wait(50);
-      PlayTone(294,40);  Wait(50);
-      PlayTone(330,40);  Wait(50);
-      PlayTone(294,40);  Wait(50);
-        }
-      }
-
-
-
-
-
 task main(){
-     SetSensorLowspeed(IN_1);
 
-    //start music;
+//----------missao dos carrinhos------------------------//
 
-//while(true){
-
-
-     Off(OUT_AB);
-     Wait(200);
-     //missao dos carrinhos
      frente(75, 42*distancia);
      girar(70, 90*direita);
      frente(75, 129*distancia);
-     //if(SensorUS(IN_1)<50){    //anda em frente ate avistar um obstaculo mais perto que 10cm
-     //   girar(90, 30*direita);
-     //}
      girar(100, 15*esquerda);
      frente(75, 20*distancia);
-     //girar(50, 50*esquerda);
      OnFwd(OUT_A,100);
      OnFwd(OUT_B,25);
      Wait(2000);
@@ -66,14 +38,20 @@ task main(){
      girar(100, 10*direita);
      frente(50, 30*distancia);
 
-     //missao de levantar a placa
+//---------missao de levantar a placa-----------------//
+
      re(75, 70*distancia);
      girar(70, 45*direita);
      frente(50, 55*distancia);
-     //re(75, 250*distancia);
-     //girar(70, 90*direita);
-     //frente(75, 15*distancia);
+
+
+//----------retorno para a base----------------------//
+     re(75,5*distancia);
+     girar(70, 15*direita);
+     re(75, 115*distancia);
+     girar(70, 35*esquerda);
+     re(75, 80*distancia);
+}
+
      
 
-//}
-}

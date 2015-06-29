@@ -25,13 +25,13 @@ task main(){
 
      SetSensorLowspeed(IN_1);
      SetSensorTouch(IN_2);
-     OnFwd(OUT_AB,50);
-      frente(50,78*distancia);
-      OnFwd(OUT_C,-25);
-      Wait(200);
-      Off(OUT_C);
-      re(50,75*distancia);
-      Wait(5000);
+     //OnFwd(OUT_AB,50);
+    //  frente(50,78*distancia);
+     // OnFwd(OUT_C,-25);
+      //Wait(200);
+      //Off(OUT_C);
+      //re(50,75*distancia);
+      //Wait(5000);
      OnFwd(OUT_AB,50);
 
 

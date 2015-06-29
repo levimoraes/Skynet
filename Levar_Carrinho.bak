@@ -3,7 +3,12 @@
 #define distancia  20.4627784
 #define esquerda  -4.398229715
 #define direita  4.398229715
-
+/*#define C
+#define D
+#define E
+#define F
+#define G
+*/
 
 sub frente(int v, float graus){
     RotateMotorEx(OUT_AB, v,graus,0,true,false);

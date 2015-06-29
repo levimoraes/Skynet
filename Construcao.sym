@@ -1,0 +1,649 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001frente	6	1	0	4	2
+1	__float_stack_002frente	10	1	4	4	2
+2	__float_stack_003frente	10	1	8	4	2
+3	__rotate_theAngle3	5	1	12	4	2
+4	__D0SetSensorLowspeed_inline_main	6	1	16	4	3
+5	__DU0SetSensorLowspeed_inline_main	5	1	20	4	2
+6	__signed_stack_002main	6	1	24	4	4
+7	__signed_stack_001re	6	1	28	4	2
+8	__frente_7qG2_graus_7qG2_000	10	1	32	4	3
+9	__float_stack_004frente	10	1	36	4	2
+10	__signed_stack_001girar	6	1	40	4	2
+11	__signed_stack_001main	6	1	44	4	8
+12	__D0re	6	1	48	4	2
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	4
+14	__CLSWMutex0	9	0	56	4	2
+15	__constValNegf395P84067435	10	0	60	4	1
+16	__RLSBmutex0	9	0	64	4	4
+17	__constValf395P84067435	10	0	68	4	1
+18	__CLSRMutex0	9	0	72	4	2
+19	__DF0frente	10	1	76	4	2
+20	__D0girar	6	1	80	4	2
+21	__D0main	6	1	84	4	28
+22	__CLSCSMutex0	9	0	88	4	2
+23	__constValNegf1033P583983025	10	0	92	4	1
+24	__constValf818P511136	10	0	96	4	1
+25	__constValf716P197244	10	0	100	4	1
+26	__rotate_theAngle1	5	1	104	4	2
+27	__rotate_angle1	6	1	108	4	4
+28	__rotateMutex1	9	0	112	4	6
+29	__rotateMutex0	9	0	116	4	4
+30	__rotate_angle3	6	1	120	4	5
+31	__constValf65P973445725	10	0	124	4	1
+32	__constValf409P255568	10	0	128	4	1
+33	__rotate_OldRotCount3	4	1	132	2	2
+34	__rotate_RotCount3	4	1	134	2	4
+35	__girar_7qG2_graus_7qG2_000	4	1	136	2	5
+36	__girar_7qG2_v_7qG2_000	4	1	138	2	5
+37	__rotate_RotCount1	4	1	140	2	4
+38	__main_7qG2_x_7qG2_000	4	1	142	2	4
+39	__frente_7qG2_v_7qG2_000	4	1	144	2	3
+40	__rotate_OldRotCount1	4	1	146	2	2
+41	__re_7qG2_graus_7qG2_000	4	1	148	2	2
+42	__re_7qG2_v_7qG2_000	4	1	150	2	2
+43	__RLSBResult0	2	1	152	1	7
+44	__RLSBytesCount0	1	1	153	1	8
+45	__RLSBIterations0	1	1	154	1	4
+46	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	155	1	2
+47	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	156	1	2
+48	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	157	1	2
+49	__zfSetSensorLowspeed_inline_main	1	1	158	1	2
+50	__re_return	1	1	159	1	3
+51	__girar_return	1	1	160	1	6
+52	__frente_return	1	1	161	1	4
+53	__constVal96	2	0	162	1	12
+54	__constVal63	2	0	163	1	9
+55	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	164	1	2
+56	__constVal2	2	0	165	1	1
+57	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	166	1	2
+58	__zfmain	1	1	167	1	16
+59	____initialize_global_data_return	1	1	168	1	3
+60	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	169	1	4
+61	__rotate_thePower1	2	1	170	1	4
+62	__rotate_theTurnPct1	2	1	171	1	4
+63	__rotate_rs1	1	1	172	1	2
+64	__rotate_theRVI1	1	1	173	1	2
+65	__rotate_theRVD1	1	1	174	1	2
+66	__rotate_stop3	1	1	175	1	3
+67	__rotate_turnpct3	2	1	176	1	4
+68	__rotate_sync3	1	1	177	1	3
+69	__rotate_power3	1	1	178	1	5
+70	__rotate_firstPort3	1	1	179	1	5
+71	__rotate_stop1	1	1	180	1	2
+72	__rotate_turnpct1	2	1	181	1	3
+73	__rotate_sync1	1	1	182	1	2
+74	__rotate_power1	1	1	183	1	4
+75	__rotate_firstPort1	1	1	184	1	5
+76	__rotate_theRS1	1	1	185	1	3
+77	__rotate_theRVP1	1	1	186	1	2
+78	__rotate_theRM1	1	1	187	1	4
+79	__rotate_theUF1	1	1	188	1	6
+80	__rotate_theOM1	1	1	189	1	7
+81	____RotateMotor1_return	1	1	190	1	3
+82	____RotateMotor3_return	1	1	191	1	4
+83	__constVal0	2	1	192	1	51
+84	__constVal32	2	0	193	1	36
+85	__constVal1	2	0	194	1	12
+86	____ResetSensorSubroutine_return	1	1	195	1	3
+87	____ReadLSBytes0_return	1	1	196	1	4
+88	__ResetSensorTmp	1	1	197	1	2
+89	__constVal3	2	0	198	1	9
+90	__ResetSensorPort	1	1	199	1	3
+91	__rotate_theRS3	1	1	200	1	3
+92	__rotate_theRVP3	1	1	201	1	3
+93	__rotate_theRM3	1	1	202	1	4
+94	__rotate_theUF3	1	1	203	1	6
+95	__rotate_theOM3	1	1	204	1	7
+96	__rotate_thePower3	2	1	205	1	4
+97	__rotate_theTurnPct3	2	1	206	1	4
+98	__rotate_rs3	1	1	207	1	2
+99	__rotate_theRVI3	1	1	208	1	3
+100	__rotate_theRVD3	1	1	209	1	3
+101	__CLSRArgs0	8	0	4	12	5
+102	__CLSRArgs0.Result	2	1	212	1	5
+103	__CLSRArgs0.Port	1	1	213	1	5
+104	__CLSRArgs0.Buffer	7	0	214	4	5
+105	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+106	__CLSRArgs0.BufferLen	1	1	216	1	5
+107	__CLSWArgs0	8	0	4	12	5
+108	__CLSWArgs0.Result	2	1	220	1	5
+109	__CLSWArgs0.Port	1	1	221	1	5
+110	__CLSWArgs0.Buffer	7	0	222	4	5
+111	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+112	__CLSWArgs0.ReturnLen	1	1	224	1	5
+113	__CLSCSArgs0	8	0	3	4	4
+114	__CLSCSArgs0.Result	2	1	228	1	4
+115	__CLSCSArgs0.Port	1	1	229	1	4
+116	__CLSCSArgs0.BytesReady	1	1	230	1	4
+117	__rotate_ports3	7	0	232	4	7
+118	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
+119	__rotate_ports1	7	0	234	4	6
+120	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+121	__OUT_AB	7	0	236	4	8
+122	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+123	__RLSBbufLSWrite1	7	0	238	4	2
+124	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+125	__RLSLastGoodRead0	7	0	240	4	2
+126	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+127	__RLSReadBuf0	7	0	242	4	10
+128	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	29	0	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	30	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	29	2	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	29	2	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	30	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	29	5	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	35	5	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	36	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6575	44	#line 6575 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3761	44	#line 3761 "NXCDefs.h"
+0	35	44	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	35	44	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	36	44		set __frente_7qG2_v_7qG2_000, 75
+0	35	47	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	35	47	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	36	47		mov __frente_7qG2_graus_7qG2_000, __constValf818P511136
+0	35	49	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	36	49	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	37	49		subcall frente, __frente_return
+0	36	51	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	36	51	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	37	51		set __girar_7qG2_v_7qG2_000, 50
+0	36	54	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	36	54	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	37	54		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
+0	36	56	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	38	56	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	39	56		subcall girar, __girar_return
+0	38	58	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	38	58	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	39	58		set __D0main, 75
+0	39	61	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	40	61	#pragma macro 7
+0	40	61		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6614	84	#line 6614 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	39	84	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	40	84	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	41	84		set __main_7qG2_x_7qG2_000, 0
+0	40	87	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	40	87	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	41	87		set __D0main, 1
+0	41	90	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	90		tst 5, __zfmain, __D0main
+0	41	93	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	93		brtst 4, __NXC_Label_643, __zfmain
+0	41	96	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	96	#pragma macro 26
+0	42	96		acquire __RLSBmutex0
+0	42	97		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	42	99		set __RLSBytesCount0, 1
+0	42	102		wait 15
+0	42	104		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	42	106		index __D0main, __RLSReadBuf0, 65535
+0	42	110		release __RLSBmutex0
+0	6636	111	#line 6636 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	41	111	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	111		mov __signed_stack_001main, __D0main
+0	41	113	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	113		set __D0main, 58
+0	41	116	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	116		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	41	120	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	120		mov __D0main, __zfmain
+0	41	122	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	122		brtst 4, __NXC_Label_647, __zfmain
+0	41	125	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	125		mov __signed_stack_001main, __D0main
+0	41	127	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	127		mov __signed_stack_002main, __main_7qG2_x_7qG2_000
+0	41	129	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	41	129	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	129		set __D0main, 0
+0	41	132	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	132		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	41	136	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	41	136	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	42	136		and __D0main, __signed_stack_001main, __zfmain
+0	42	140	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	43	140		tst 5, __zfmain, __D0main
+0	42	143	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	43	143		brtst 4, __NXC_Label_648, __zfmain
+0	43	146	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	44	146	#pragma macro 7
+0	44	146		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6668	169	#line 6668 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	43	169	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	43	169	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	44	169		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	43	172	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	7921	172	#line 7921 "NXCDefs.h"
+0	7922	172		wait 200
+0	7921	174	#line 7921 "NXCDefs.h"
+0	44	174	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	44	174	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	45	174		set __girar_7qG2_v_7qG2_000, 50
+0	44	177	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	44	177	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	45	177		mov __girar_7qG2_graus_7qG2_000, __constValNegf395P84067435
+0	44	179	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	45	179	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	46	179		subcall girar, __girar_return
+0	45	181	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	45	181	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	46	181		set __D0main, 75
+0	46	184	#line 46 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	47	184	#pragma macro 7
+0	47	184		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6704	207	#line 6704 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	46	207	#line 46 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	47	207	#line 47 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	48	207		set __main_7qG2_x_7qG2_000, 1
+0	47	210	#line 47 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	47	210	#line 47 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	48	210	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	48	210	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	210	#pragma macro 26
+0	49	210		acquire __RLSBmutex0
+0	49	211		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	49	213		set __RLSBytesCount0, 1
+0	49	216		wait 15
+0	49	218		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	49	220		index __D0main, __RLSReadBuf0, 65535
+0	49	224		release __RLSBmutex0
+0	6716	225	#line 6716 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	48	225	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	225		mov __signed_stack_001main, __D0main
+0	48	227	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	227		set __D0main, 35
+0	48	230	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	230		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	48	234	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	234		mov __D0main, __zfmain
+0	48	236	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	236		brtst 4, __NXC_Label_660, __zfmain
+0	48	239	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	239		mov __signed_stack_001main, __D0main
+0	48	241	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	241		mov __signed_stack_002main, __main_7qG2_x_7qG2_000
+0	48	243	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	48	243	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	243		set __D0main, 1
+0	48	246	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	246		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	48	250	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	48	250	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	49	250		and __D0main, __signed_stack_001main, __zfmain
+0	49	254	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	50	254		tst 5, __zfmain, __D0main
+0	49	257	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	50	257		brtst 4, __NXC_Label_661, __zfmain
+0	50	260	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	51	260	#pragma macro 7
+0	51	260		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6748	283	#line 6748 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	50	283	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	50	283	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	51	283		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	50	286	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	7921	286	#line 7921 "NXCDefs.h"
+0	7922	286		wait 200
+0	7921	288	#line 7921 "NXCDefs.h"
+0	51	288	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	51	288	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	52	288		set __girar_7qG2_v_7qG2_000, 75
+0	51	291	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	51	291	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	52	291		mov __girar_7qG2_graus_7qG2_000, __constValNegf1033P583983025
+0	51	293	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	52	293	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	53	293		subcall girar, __girar_return
+0	52	295	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	52	295	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	53	295		set __frente_7qG2_v_7qG2_000, 50
+0	52	298	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	52	298	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	53	298		mov __frente_7qG2_graus_7qG2_000, __constValf716P197244
+0	52	300	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	53	300	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	54	300		subcall frente, __frente_return
+0	53	302	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	53	302	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	54	302		set __girar_7qG2_v_7qG2_000, 50
+0	53	305	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	53	305	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	54	305		mov __girar_7qG2_graus_7qG2_000, __constValf65P973445725
+0	53	307	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	54	307	#line 54 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	55	307		subcall girar, __girar_return
+0	54	309	#line 54 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	54	309	#line 54 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	55	309		set __D0main, 20
+0	55	312	#line 55 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	56	312	#pragma macro 7
+0	56	312		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6810	335	#line 6810 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	55	335	#line 55 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	55	335	#line 55 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	56	335		set __Wait_7qG2_ms_7qG2_000_inline_main, 550
+0	55	338	#line 55 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	7921	338	#line 7921 "NXCDefs.h"
+0	7922	338		wait 550
+0	7921	340	#line 7921 "NXCDefs.h"
+0	56	340	#line 56 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	57	340	#line 57 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	58	340	#pragma macro 7
+0	58	340		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6823	363	#line 6823 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	57	363	#line 57 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	57	363	#line 57 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	58	363		set __re_7qG2_v_7qG2_000, 50
+0	57	366	#line 57 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	57	366	#line 57 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	58	366		mov __re_7qG2_graus_7qG2_000, __constValf409P255568
+0	57	368	#line 57 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	58	368	#line 58 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	59	368		subcall re, __re_return
+0	58	370	#line 58 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	58	370	#line 58 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	59	370		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
+0	58	373	#line 58 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	7921	373	#line 7921 "NXCDefs.h"
+0	7922	373		wait 10000
+0	7921	375	#line 7921 "NXCDefs.h"
+0	59	375	#line 59 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	68	375	#line 68 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	70	375	#line 70 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	71	375		jmp __NXC_Label_642
+0	70	377	#line 70 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+0	71	377		exit -1, -1
+1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	4530	3		sign __rotate_thePower1, __rotate_angle1
+1	4531	6		abs __rotate_theAngle1, __rotate_angle1
+1	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	13		set __rotate_theUF1, 23
+1	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	19		set __rotate_theOM1, 7
+1	4537	22		set __rotate_theRM1, 2
+1	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	34		jmp __rotate_Start1
+1	4543	36		set __rotate_theOM1, 3
+1	4544	39		set __rotate_theRM1, 0
+1	4545	42		set __rotate_theTurnPct1, 0
+1	4547	45		set __rotate_theRS1, 32
+1	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	93		set __rotate_theOM1, 7
+1	4561	96		set __rotate_theUF1, 7
+1	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	120		wait 50
+1	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	130		set __rotate_theOM1, 4
+1	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	147		setout __rotate_ports1, 0, __constVal32
+1	4578	152		subret ____RotateMotor1_return
+2	4635	0		brtst 4, __rotate_Done3, __rotate_angle3
+2	4636	3		sign __rotate_thePower3, __rotate_angle3
+2	4637	6		abs __rotate_theAngle3, __rotate_angle3
+2	4638	9		mul __rotate_thePower3, __rotate_thePower3, __rotate_power3
+2	4640	13		set __rotate_theUF3, 23
+2	4641	16		brtst 4, __rotate_NoSync3, __rotate_sync3
+2	4642	19		set __rotate_theOM3, 7
+2	4643	22		set __rotate_theRM3, 2
+2	4644	25		mov __rotate_theTurnPct3, __rotate_turnpct3
+2	4645	27		brtst 4, __rotate_Start3, __rotate_theTurnPct3
+2	4646	30		add __rotate_theUF3, __rotate_theUF3, __constVal32
+2	4647	34		jmp __rotate_Start3
+2	4649	36		set __rotate_theOM3, 3
+2	4650	39		set __rotate_theRM3, 0
+2	4651	42		set __rotate_theTurnPct3, 0
+2	4653	45		set __rotate_theRS3, 32
+2	4654	48		setout __rotate_ports3, 1, __rotate_theOM3, 8, __rotate_theRM3, 5, __rotate_theAngle3, 6, __rotate_theRS3, 10, __rotate_theRVP3, 11, __rotate_theRVI3, 12, __rotate_theRVD3, 2, __rotate_thePower3, 7, __rotate_turnpct3, 0, __rotate_theUF3
+2	4657	71		index __rotate_firstPort3, __rotate_ports3, 65535
+2	4659	75		getout __rotate_power3, __rotate_firstPort3, 2
+2	4660	79		brtst 4, __rotate_doneRunning3, __rotate_power3
+2	4661	82		getout __rotate_rs3, __rotate_firstPort3, 6
+2	4662	86		brcmp 4, __rotate_Running3, __rotate_rs3, __constVal32
+2	4664	90		brtst 4, __rotate_Reset3, __rotate_stop3
+2	4666	93		set __rotate_theOM3, 7
+2	4667	96		set __rotate_theUF3, 7
+2	4668	99		setout __rotate_ports3, 1, __rotate_theOM3, 8, __constVal1, 6, __rotate_theRS3, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF3
+2	4670	114		getout __rotate_RotCount3, __rotate_firstPort3, 14
+2	4672	118		mov __rotate_OldRotCount3, __rotate_RotCount3
+2	4673	120		wait 50
+2	4675	122		getout __rotate_RotCount3, __rotate_firstPort3, 14
+2	4676	126		brcmp 5, __rotate_Stabilize3, __rotate_OldRotCount3, __rotate_RotCount3
+2	4677	130		set __rotate_theOM3, 4
+2	4678	133		setout __rotate_ports3, 8, __rotate_theRM3, 6, __constVal0, 1, __rotate_theOM3, 0, __constVal1
+2	4681	144		brtst 4, __rotate_Done3, __rotate_theTurnPct3
+2	4682	147		setout __rotate_ports3, 0, __constVal32
+2	4684	152		subret ____RotateMotor3_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	5672	0	#pragma macro 25
+4	5672	0		acquire __CLSWMutex0
+4	5672	1		set __CLSWArgs0.Port, 0
+4	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+4	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+4	5672	8		syscall 21, __CLSWArgs0
+4	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+4	5672	13		release __CLSWMutex0
+4	5673	14	#line 5673 "NXTDefs.h"
+4	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+4	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+4	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+4	5677	24		set __RLSBIterations0, 4
+4	5679	27	#pragma macro 23
+4	5679	27		acquire __CLSCSMutex0
+4	5679	28		set __CLSCSArgs0.Port, 0
+4	5679	31		syscall 23, __CLSCSArgs0
+4	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+4	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+4	5679	38		release __CLSCSMutex0
+4	5679	39	#line 5679 "NXTDefs.h"
+4	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+4	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+4	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+4	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+4	5685	52		wait 15
+4	5686	54		jmp __RLSBDoCheckStatus0
+4	5689	56	#pragma macro 25
+4	5689	56		acquire __CLSRMutex0
+4	5689	57		set __CLSRArgs0.Port, 0
+4	5689	60		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+4	5689	62		syscall 22, __CLSRArgs0
+4	5689	65		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+4	5689	67		mov __RLSBResult0, __CLSRArgs0.Result
+4	5689	69		release __CLSRMutex0
+4	5689	70	#line 5689 "NXTDefs.h"
+4	5690	70		brtst 5, __RLSBError0, __RLSBResult0
+4	5691	73		mov __RLSLastGoodRead0, __RLSReadBuf0
+4	5692	75		jmp __RLSBDone0
+4	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
+4	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
+4	5698	82		subret ____ReadLSBytes0_return
+5	8	0	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	9	0		mov __signed_stack_001frente, __frente_7qG2_v_7qG2_000
+5	8	2	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	8	2	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	9	2		mov __float_stack_002frente, __frente_7qG2_graus_7qG2_000
+5	8	4	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	8	4	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	9	4		mov __float_stack_003frente, __constVal0
+5	8	6	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	8	6	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	9	6		mov __float_stack_004frente, __constVal1
+5	8	8	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	8	8	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	9	8		mov __DF0frente, __constVal0
+5	10	10	#line 10 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	11	10	#pragma macro 35
+5	11	10		acquire __rotateMutex0
+5	11	11		acquire __rotateMutex1
+5	11	12		mov __rotate_ports3, __OUT_AB
+5	11	14		mov __rotate_power3, __signed_stack_001frente
+5	11	16		mov __rotate_angle3, __float_stack_002frente
+5	11	18		mov __rotate_turnpct3, __float_stack_003frente
+5	11	20		mov __rotate_sync3, __float_stack_004frente
+5	11	22		mov __rotate_stop3, __DF0frente
+5	11	24		mov __rotate_theRVP3, __constVal32
+5	11	26		mov __rotate_theRVI3, __constVal0
+5	11	28		mov __rotate_theRVD3, __constVal96
+5	11	30		subcall __RotateMotor3, ____RotateMotor3_return
+5	11	32		release __rotateMutex1
+5	11	33		release __rotateMutex0
+5	6364	34	#line 6364 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	10	34	#line 10 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	11	34	#line 11 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	12	34	#pragma macro 7
+5	12	34		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6367	57	#line 6367 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	11	57	#line 11 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	11	57	#line 11 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	11	57	#line 11 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	7921	57	#line 7921 "NXCDefs.h"
+5	7922	57		wait 200
+5	7921	59	#line 7921 "NXCDefs.h"
+5	12	59	#line 12 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	14	59	#line 14 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+5	15	59		subret __frente_return
+6	15	0	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	16	0		mov __signed_stack_001re, __re_7qG2_v_7qG2_000
+6	15	2	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	15	2	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	15	2	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	15	2	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	15	2	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	16	2		sub __D0re, __constVal0, __re_7qG2_graus_7qG2_000
+6	17	6	#line 17 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	18	6	#pragma macro 35
+6	18	6		acquire __rotateMutex0
+6	18	7		acquire __rotateMutex1
+6	18	8		mov __rotate_ports3, __OUT_AB
+6	18	10		mov __rotate_power3, __signed_stack_001re
+6	18	12		mov __rotate_angle3, __D0re
+6	18	14		mov __rotate_turnpct3, __constVal0
+6	18	16		mov __rotate_sync3, __constVal0
+6	18	18		mov __rotate_stop3, __constVal1
+6	18	20		mov __rotate_theRVP3, __constVal32
+6	18	22		mov __rotate_theRVI3, __constVal0
+6	18	24		mov __rotate_theRVD3, __constVal96
+6	18	26		subcall __RotateMotor3, ____RotateMotor3_return
+6	18	28		release __rotateMutex1
+6	18	29		release __rotateMutex0
+6	6413	30	#line 6413 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	17	30	#line 17 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	18	30	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	19	30	#pragma macro 7
+6	19	30		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6416	53	#line 6416 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	18	53	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	18	53	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	18	53	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	7921	53	#line 7921 "NXCDefs.h"
+6	7922	53		wait 200
+6	7921	55	#line 7921 "NXCDefs.h"
+6	19	55	#line 19 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	21	55	#line 21 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+6	22	55		subret __re_return
+7	22	0	#line 22 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	23	0		mov __signed_stack_001girar, __girar_7qG2_v_7qG2_000
+7	22	2	#line 22 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	22	2	#line 22 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	23	2		mov __D0girar, __girar_7qG2_graus_7qG2_000
+7	24	4	#line 24 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	25	4	#pragma macro 33
+7	25	4		acquire __rotateMutex1
+7	25	5		arrbuild __rotate_ports1, __constVal1
+7	25	9		mov __rotate_power1, __signed_stack_001girar
+7	25	11		mov __rotate_angle1, __D0girar
+7	25	13		mov __rotate_turnpct1, __constVal0
+7	25	15		mov __rotate_sync1, __constVal0
+7	25	17		mov __rotate_stop1, __constVal1
+7	25	19		mov __rotate_theRVP1, __constVal32
+7	25	21		mov __rotate_theRVI1, __constVal0
+7	25	23		mov __rotate_theRVD1, __constVal96
+7	25	25		subcall __RotateMotor1, ____RotateMotor1_return
+7	25	27		release __rotateMutex1
+7	6456	28	#line 6456 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	24	28	#line 24 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	25	28	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	26	28	#pragma macro 7
+7	26	28		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	6459	51	#line 6459 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	25	51	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	25	51	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	25	51	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	7921	51	#line 7921 "NXCDefs.h"
+7	7922	51		wait 200
+7	7921	53	#line 7921 "NXCDefs.h"
+7	26	53	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	28	53	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+7	29	53		subret __girar_return
+8	71	0	#line 71 "G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc"
+8	72	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc
+1	__RotateMotor1	380	NXTDefs.h
+2	__RotateMotor3	534	NXTDefs.h
+3	__ResetSensorSubroutine	688	NXTDefs.h
+4	__ReadLSBytes0	701	NXTDefs.h
+5	frente	785	G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc
+6	re	846	G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc
+7	girar	903	G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc
+8	__initialize_global_data	958	G:\Principios de Robótica Educacional\programas_lego\Construcao.nxc

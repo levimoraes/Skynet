@@ -1,0 +1,485 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__rotate_theAngle1	5	1	0	4	2
+1	__DU0SetSensorLowspeed_inline_main	5	1	4	4	2
+2	__signed_stack_001girar	6	1	8	4	2
+3	__D0SetSensorLowspeed_inline_main	6	1	12	4	3
+4	__D0girar	6	1	16	4	2
+5	__D0main	6	1	20	4	4
+6	__D0re	6	1	24	4	2
+7	__rotate_angle3	6	1	28	4	5
+8	__float_stack_004frente	10	1	32	4	2
+9	__float_stack_003frente	10	1	36	4	2
+10	__rotate_theAngle3	5	1	40	4	2
+11	__frente_7qG2_graus_7qG2_000	10	1	44	4	6
+12	__signed_stack_001frente	6	1	48	4	2
+13	__signed_stack_001re	6	1	52	4	2
+14	__float_stack_002frente	10	1	56	4	2
+15	__constValf1432P394488	10	0	60	4	1
+16	__rotate_angle1	6	1	64	4	4
+17	__constValf43P98229715	10	0	68	4	1
+18	__constValf613P883352	10	0	72	4	1
+19	__rotateMutex0	9	0	76	4	4
+20	__constValf1125P452812	10	0	80	4	1
+21	__constValf197P920337175	10	0	84	4	1
+22	__rotateMutex1	9	0	88	4	6
+23	__constValf409P255568	10	0	92	4	1
+24	__DF0frente	10	1	96	4	2
+25	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	100	4	2
+26	__constValf859P4366928	10	0	104	4	1
+27	__constValNegf65P973445725	10	0	108	4	1
+28	__constValf2639P6984136	10	0	112	4	1
+29	__constValf395P84067435	10	0	116	4	1
+30	__frente_7qG2_v_7qG2_000	4	1	120	2	6
+31	__rotate_OldRotCount3	4	1	122	2	2
+32	__rotate_RotCount3	4	1	124	2	4
+33	__girar_7qG2_graus_7qG2_000	4	1	126	2	5
+34	__rotate_RotCount1	4	1	128	2	4
+35	__rotate_OldRotCount1	4	1	130	2	2
+36	__re_7qG2_graus_7qG2_000	4	1	132	2	2
+37	__re_7qG2_v_7qG2_000	4	1	134	2	2
+38	__girar_7qG2_v_7qG2_000	4	1	136	2	5
+39	__zfSetSensorLowspeed_inline_main	1	1	138	1	2
+40	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	139	1	2
+41	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	140	1	2
+42	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	141	1	4
+43	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	142	1	2
+44	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	143	1	2
+45	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	144	1	2
+46	__constVal63	2	0	145	1	7
+47	__constVal96	2	0	146	1	10
+48	__frente_return	1	1	147	1	7
+49	____initialize_global_data_return	1	1	148	1	3
+50	__girar_return	1	1	149	1	6
+51	__re_return	1	1	150	1	3
+52	__rotate_rs1	1	1	151	1	2
+53	__rotate_thePower1	2	1	152	1	4
+54	__rotate_theRVI1	1	1	153	1	2
+55	__rotate_theRVD1	1	1	154	1	2
+56	__rotate_theTurnPct1	2	1	155	1	4
+57	__rotate_sync3	1	1	156	1	3
+58	__rotate_stop3	1	1	157	1	3
+59	__rotate_power3	1	1	158	1	5
+60	__rotate_firstPort3	1	1	159	1	5
+61	__rotate_theRVP1	1	1	160	1	2
+62	__rotate_sync1	1	1	161	1	2
+63	__rotate_stop1	1	1	162	1	2
+64	__rotate_power1	1	1	163	1	4
+65	__rotate_firstPort1	1	1	164	1	5
+66	__rotate_turnpct1	2	1	165	1	3
+67	__rotate_theRM1	1	1	166	1	4
+68	__rotate_theRS1	1	1	167	1	3
+69	__rotate_theUF1	1	1	168	1	6
+70	__rotate_theOM1	1	1	169	1	7
+71	__rotate_turnpct3	2	1	170	1	4
+72	__constVal0	2	1	171	1	43
+73	____RotateMotor1_return	1	1	172	1	3
+74	__constVal1	2	0	173	1	12
+75	__rotate_theTurnPct3	2	1	174	1	4
+76	__constVal32	2	0	175	1	30
+77	__ResetSensorTmp	1	1	176	1	2
+78	____ResetSensorSubroutine_return	1	1	177	1	3
+79	__ResetSensorPort	1	1	178	1	3
+80	____RotateMotor3_return	1	1	179	1	4
+81	__constVal3	2	0	180	1	7
+82	__rotate_theRM3	1	1	181	1	4
+83	__rotate_theRS3	1	1	182	1	3
+84	__rotate_theUF3	1	1	183	1	6
+85	__rotate_theOM3	1	1	184	1	7
+86	__rotate_theRVP3	1	1	185	1	3
+87	__rotate_rs3	1	1	186	1	2
+88	__rotate_thePower3	2	1	187	1	4
+89	__rotate_theRVD3	1	1	188	1	3
+90	__rotate_theRVI3	1	1	189	1	3
+91	__OUT_AB	7	0	190	4	6
+92	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+93	__rotate_ports3	7	0	192	4	7
+94	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
+95	__rotate_ports1	7	0	194	4	6
+96	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	47	0	#line 47 "E:\programas_lego\Levar_Carrinho.nxc"
+0	48	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	47	2	#line 47 "E:\programas_lego\Levar_Carrinho.nxc"
+0	47	2	#line 47 "E:\programas_lego\Levar_Carrinho.nxc"
+0	48	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	47	5	#line 47 "E:\programas_lego\Levar_Carrinho.nxc"
+0	54	5	#line 54 "E:\programas_lego\Levar_Carrinho.nxc"
+0	55	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6947	44	#line 6947 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3761	44	#line 3761 "NXCDefs.h"
+0	54	44	#line 54 "E:\programas_lego\Levar_Carrinho.nxc"
+0	55	44	#line 55 "E:\programas_lego\Levar_Carrinho.nxc"
+0	56	44	#pragma macro 7
+0	56	44		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6952	67	#line 6952 "E:\programas_lego\Levar_Carrinho.nxc"
+0	55	67	#line 55 "E:\programas_lego\Levar_Carrinho.nxc"
+0	55	67	#line 55 "E:\programas_lego\Levar_Carrinho.nxc"
+0	56	67		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	55	70	#line 55 "E:\programas_lego\Levar_Carrinho.nxc"
+0	7921	70	#line 7921 "NXCDefs.h"
+0	7922	70		wait 200
+0	7921	72	#line 7921 "NXCDefs.h"
+0	57	72	#line 57 "E:\programas_lego\Levar_Carrinho.nxc"
+0	57	72	#line 57 "E:\programas_lego\Levar_Carrinho.nxc"
+0	58	72		set __frente_7qG2_v_7qG2_000, 75
+0	57	75	#line 57 "E:\programas_lego\Levar_Carrinho.nxc"
+0	57	75	#line 57 "E:\programas_lego\Levar_Carrinho.nxc"
+0	58	75		mov __frente_7qG2_graus_7qG2_000, __constValf859P4366928
+0	57	77	#line 57 "E:\programas_lego\Levar_Carrinho.nxc"
+0	58	77	#line 58 "E:\programas_lego\Levar_Carrinho.nxc"
+0	59	77		subcall frente, __frente_return
+0	58	79	#line 58 "E:\programas_lego\Levar_Carrinho.nxc"
+0	58	79	#line 58 "E:\programas_lego\Levar_Carrinho.nxc"
+0	59	79		set __girar_7qG2_v_7qG2_000, 70
+0	58	82	#line 58 "E:\programas_lego\Levar_Carrinho.nxc"
+0	58	82	#line 58 "E:\programas_lego\Levar_Carrinho.nxc"
+0	59	82		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
+0	58	84	#line 58 "E:\programas_lego\Levar_Carrinho.nxc"
+0	59	84	#line 59 "E:\programas_lego\Levar_Carrinho.nxc"
+0	60	84		subcall girar, __girar_return
+0	59	86	#line 59 "E:\programas_lego\Levar_Carrinho.nxc"
+0	59	86	#line 59 "E:\programas_lego\Levar_Carrinho.nxc"
+0	60	86		set __frente_7qG2_v_7qG2_000, 75
+0	59	89	#line 59 "E:\programas_lego\Levar_Carrinho.nxc"
+0	59	89	#line 59 "E:\programas_lego\Levar_Carrinho.nxc"
+0	60	89		mov __frente_7qG2_graus_7qG2_000, __constValf2639P6984136
+0	59	91	#line 59 "E:\programas_lego\Levar_Carrinho.nxc"
+0	63	91	#line 63 "E:\programas_lego\Levar_Carrinho.nxc"
+0	64	91		subcall frente, __frente_return
+0	63	93	#line 63 "E:\programas_lego\Levar_Carrinho.nxc"
+0	63	93	#line 63 "E:\programas_lego\Levar_Carrinho.nxc"
+0	64	93		set __girar_7qG2_v_7qG2_000, 100
+0	63	96	#line 63 "E:\programas_lego\Levar_Carrinho.nxc"
+0	63	96	#line 63 "E:\programas_lego\Levar_Carrinho.nxc"
+0	64	96		mov __girar_7qG2_graus_7qG2_000, __constValNegf65P973445725
+0	63	98	#line 63 "E:\programas_lego\Levar_Carrinho.nxc"
+0	64	98	#line 64 "E:\programas_lego\Levar_Carrinho.nxc"
+0	65	98		subcall girar, __girar_return
+0	64	100	#line 64 "E:\programas_lego\Levar_Carrinho.nxc"
+0	64	100	#line 64 "E:\programas_lego\Levar_Carrinho.nxc"
+0	65	100		set __frente_7qG2_v_7qG2_000, 75
+0	64	103	#line 64 "E:\programas_lego\Levar_Carrinho.nxc"
+0	64	103	#line 64 "E:\programas_lego\Levar_Carrinho.nxc"
+0	65	103		mov __frente_7qG2_graus_7qG2_000, __constValf409P255568
+0	64	105	#line 64 "E:\programas_lego\Levar_Carrinho.nxc"
+0	66	105	#line 66 "E:\programas_lego\Levar_Carrinho.nxc"
+0	67	105		subcall frente, __frente_return
+0	66	107	#line 66 "E:\programas_lego\Levar_Carrinho.nxc"
+0	66	107	#line 66 "E:\programas_lego\Levar_Carrinho.nxc"
+0	67	107		set __D0main, 100
+0	67	110	#line 67 "E:\programas_lego\Levar_Carrinho.nxc"
+0	68	110	#pragma macro 7
+0	68	110		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7048	133	#line 7048 "E:\programas_lego\Levar_Carrinho.nxc"
+0	67	133	#line 67 "E:\programas_lego\Levar_Carrinho.nxc"
+0	67	133	#line 67 "E:\programas_lego\Levar_Carrinho.nxc"
+0	68	133		set __D0main, 25
+0	68	136	#line 68 "E:\programas_lego\Levar_Carrinho.nxc"
+0	69	136	#pragma macro 7
+0	69	136		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7055	159	#line 7055 "E:\programas_lego\Levar_Carrinho.nxc"
+0	68	159	#line 68 "E:\programas_lego\Levar_Carrinho.nxc"
+0	68	159	#line 68 "E:\programas_lego\Levar_Carrinho.nxc"
+0	69	159		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	68	162	#line 68 "E:\programas_lego\Levar_Carrinho.nxc"
+0	7921	162	#line 7921 "NXCDefs.h"
+0	7922	162		wait 2000
+0	7921	164	#line 7921 "NXCDefs.h"
+0	69	164	#line 69 "E:\programas_lego\Levar_Carrinho.nxc"
+0	70	164	#line 70 "E:\programas_lego\Levar_Carrinho.nxc"
+0	71	164	#pragma macro 7
+0	71	164		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7068	187	#line 7068 "E:\programas_lego\Levar_Carrinho.nxc"
+0	70	187	#line 70 "E:\programas_lego\Levar_Carrinho.nxc"
+0	70	187	#line 70 "E:\programas_lego\Levar_Carrinho.nxc"
+0	71	187		set __girar_7qG2_v_7qG2_000, 100
+0	70	190	#line 70 "E:\programas_lego\Levar_Carrinho.nxc"
+0	70	190	#line 70 "E:\programas_lego\Levar_Carrinho.nxc"
+0	71	190		mov __girar_7qG2_graus_7qG2_000, __constValf43P98229715
+0	70	192	#line 70 "E:\programas_lego\Levar_Carrinho.nxc"
+0	71	192	#line 71 "E:\programas_lego\Levar_Carrinho.nxc"
+0	72	192		subcall girar, __girar_return
+0	71	194	#line 71 "E:\programas_lego\Levar_Carrinho.nxc"
+0	71	194	#line 71 "E:\programas_lego\Levar_Carrinho.nxc"
+0	72	194		set __frente_7qG2_v_7qG2_000, 50
+0	71	197	#line 71 "E:\programas_lego\Levar_Carrinho.nxc"
+0	71	197	#line 71 "E:\programas_lego\Levar_Carrinho.nxc"
+0	72	197		mov __frente_7qG2_graus_7qG2_000, __constValf613P883352
+0	71	199	#line 71 "E:\programas_lego\Levar_Carrinho.nxc"
+0	74	199	#line 74 "E:\programas_lego\Levar_Carrinho.nxc"
+0	75	199		subcall frente, __frente_return
+0	74	201	#line 74 "E:\programas_lego\Levar_Carrinho.nxc"
+0	74	201	#line 74 "E:\programas_lego\Levar_Carrinho.nxc"
+0	75	201		set __re_7qG2_v_7qG2_000, 75
+0	74	204	#line 74 "E:\programas_lego\Levar_Carrinho.nxc"
+0	74	204	#line 74 "E:\programas_lego\Levar_Carrinho.nxc"
+0	75	204		mov __re_7qG2_graus_7qG2_000, __constValf1432P394488
+0	74	206	#line 74 "E:\programas_lego\Levar_Carrinho.nxc"
+0	75	206	#line 75 "E:\programas_lego\Levar_Carrinho.nxc"
+0	76	206		subcall re, __re_return
+0	75	208	#line 75 "E:\programas_lego\Levar_Carrinho.nxc"
+0	75	208	#line 75 "E:\programas_lego\Levar_Carrinho.nxc"
+0	76	208		set __girar_7qG2_v_7qG2_000, 70
+0	75	211	#line 75 "E:\programas_lego\Levar_Carrinho.nxc"
+0	75	211	#line 75 "E:\programas_lego\Levar_Carrinho.nxc"
+0	76	211		mov __girar_7qG2_graus_7qG2_000, __constValf197P920337175
+0	75	213	#line 75 "E:\programas_lego\Levar_Carrinho.nxc"
+0	76	213	#line 76 "E:\programas_lego\Levar_Carrinho.nxc"
+0	77	213		subcall girar, __girar_return
+0	76	215	#line 76 "E:\programas_lego\Levar_Carrinho.nxc"
+0	76	215	#line 76 "E:\programas_lego\Levar_Carrinho.nxc"
+0	77	215		set __frente_7qG2_v_7qG2_000, 50
+0	76	218	#line 76 "E:\programas_lego\Levar_Carrinho.nxc"
+0	76	218	#line 76 "E:\programas_lego\Levar_Carrinho.nxc"
+0	77	218		mov __frente_7qG2_graus_7qG2_000, __constValf1125P452812
+0	76	220	#line 76 "E:\programas_lego\Levar_Carrinho.nxc"
+0	83	220	#line 83 "E:\programas_lego\Levar_Carrinho.nxc"
+0	84	220		subcall frente, __frente_return
+0	83	222	#line 83 "E:\programas_lego\Levar_Carrinho.nxc"
+0	84	222		exit -1, -1
+1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	4530	3		sign __rotate_thePower1, __rotate_angle1
+1	4531	6		abs __rotate_theAngle1, __rotate_angle1
+1	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	13		set __rotate_theUF1, 23
+1	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	19		set __rotate_theOM1, 7
+1	4537	22		set __rotate_theRM1, 2
+1	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	34		jmp __rotate_Start1
+1	4543	36		set __rotate_theOM1, 3
+1	4544	39		set __rotate_theRM1, 0
+1	4545	42		set __rotate_theTurnPct1, 0
+1	4547	45		set __rotate_theRS1, 32
+1	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	93		set __rotate_theOM1, 7
+1	4561	96		set __rotate_theUF1, 7
+1	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	120		wait 50
+1	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	130		set __rotate_theOM1, 4
+1	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	147		setout __rotate_ports1, 0, __constVal32
+1	4578	152		subret ____RotateMotor1_return
+2	4635	0		brtst 4, __rotate_Done3, __rotate_angle3
+2	4636	3		sign __rotate_thePower3, __rotate_angle3
+2	4637	6		abs __rotate_theAngle3, __rotate_angle3
+2	4638	9		mul __rotate_thePower3, __rotate_thePower3, __rotate_power3
+2	4640	13		set __rotate_theUF3, 23
+2	4641	16		brtst 4, __rotate_NoSync3, __rotate_sync3
+2	4642	19		set __rotate_theOM3, 7
+2	4643	22		set __rotate_theRM3, 2
+2	4644	25		mov __rotate_theTurnPct3, __rotate_turnpct3
+2	4645	27		brtst 4, __rotate_Start3, __rotate_theTurnPct3
+2	4646	30		add __rotate_theUF3, __rotate_theUF3, __constVal32
+2	4647	34		jmp __rotate_Start3
+2	4649	36		set __rotate_theOM3, 3
+2	4650	39		set __rotate_theRM3, 0
+2	4651	42		set __rotate_theTurnPct3, 0
+2	4653	45		set __rotate_theRS3, 32
+2	4654	48		setout __rotate_ports3, 1, __rotate_theOM3, 8, __rotate_theRM3, 5, __rotate_theAngle3, 6, __rotate_theRS3, 10, __rotate_theRVP3, 11, __rotate_theRVI3, 12, __rotate_theRVD3, 2, __rotate_thePower3, 7, __rotate_turnpct3, 0, __rotate_theUF3
+2	4657	71		index __rotate_firstPort3, __rotate_ports3, 65535
+2	4659	75		getout __rotate_power3, __rotate_firstPort3, 2
+2	4660	79		brtst 4, __rotate_doneRunning3, __rotate_power3
+2	4661	82		getout __rotate_rs3, __rotate_firstPort3, 6
+2	4662	86		brcmp 4, __rotate_Running3, __rotate_rs3, __constVal32
+2	4664	90		brtst 4, __rotate_Reset3, __rotate_stop3
+2	4666	93		set __rotate_theOM3, 7
+2	4667	96		set __rotate_theUF3, 7
+2	4668	99		setout __rotate_ports3, 1, __rotate_theOM3, 8, __constVal1, 6, __rotate_theRS3, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF3
+2	4670	114		getout __rotate_RotCount3, __rotate_firstPort3, 14
+2	4672	118		mov __rotate_OldRotCount3, __rotate_RotCount3
+2	4673	120		wait 50
+2	4675	122		getout __rotate_RotCount3, __rotate_firstPort3, 14
+2	4676	126		brcmp 5, __rotate_Stabilize3, __rotate_OldRotCount3, __rotate_RotCount3
+2	4677	130		set __rotate_theOM3, 4
+2	4678	133		setout __rotate_ports3, 8, __rotate_theRM3, 6, __constVal0, 1, __rotate_theOM3, 0, __constVal1
+2	4681	144		brtst 4, __rotate_Done3, __rotate_theTurnPct3
+2	4682	147		setout __rotate_ports3, 0, __constVal32
+2	4684	152		subret ____RotateMotor3_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	13	0	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	14	0		mov __signed_stack_001frente, __frente_7qG2_v_7qG2_000
+4	13	2	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	13	2	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	14	2		mov __float_stack_002frente, __frente_7qG2_graus_7qG2_000
+4	13	4	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	13	4	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	14	4		mov __float_stack_003frente, __constVal0
+4	13	6	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	13	6	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	14	6		mov __float_stack_004frente, __constVal1
+4	13	8	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	13	8	#line 13 "E:\programas_lego\Levar_Carrinho.nxc"
+4	14	8		mov __DF0frente, __constVal0
+4	15	10	#line 15 "E:\programas_lego\Levar_Carrinho.nxc"
+4	16	10	#pragma macro 35
+4	16	10		acquire __rotateMutex0
+4	16	11		acquire __rotateMutex1
+4	16	12		mov __rotate_ports3, __OUT_AB
+4	16	14		mov __rotate_power3, __signed_stack_001frente
+4	16	16		mov __rotate_angle3, __float_stack_002frente
+4	16	18		mov __rotate_turnpct3, __float_stack_003frente
+4	16	20		mov __rotate_sync3, __float_stack_004frente
+4	16	22		mov __rotate_stop3, __DF0frente
+4	16	24		mov __rotate_theRVP3, __constVal32
+4	16	26		mov __rotate_theRVI3, __constVal0
+4	16	28		mov __rotate_theRVD3, __constVal96
+4	16	30		subcall __RotateMotor3, ____RotateMotor3_return
+4	16	32		release __rotateMutex1
+4	16	33		release __rotateMutex0
+4	6520	34	#line 6520 "E:\programas_lego\Levar_Carrinho.nxc"
+4	15	34	#line 15 "E:\programas_lego\Levar_Carrinho.nxc"
+4	16	34	#line 16 "E:\programas_lego\Levar_Carrinho.nxc"
+4	17	34	#pragma macro 7
+4	17	34		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6523	57	#line 6523 "E:\programas_lego\Levar_Carrinho.nxc"
+4	16	57	#line 16 "E:\programas_lego\Levar_Carrinho.nxc"
+4	16	57	#line 16 "E:\programas_lego\Levar_Carrinho.nxc"
+4	16	57	#line 16 "E:\programas_lego\Levar_Carrinho.nxc"
+4	7921	57	#line 7921 "NXCDefs.h"
+4	7922	57		wait 200
+4	7921	59	#line 7921 "NXCDefs.h"
+4	17	59	#line 17 "E:\programas_lego\Levar_Carrinho.nxc"
+4	19	59	#line 19 "E:\programas_lego\Levar_Carrinho.nxc"
+4	20	59		subret __frente_return
+5	20	0	#line 20 "E:\programas_lego\Levar_Carrinho.nxc"
+5	21	0		mov __signed_stack_001re, __re_7qG2_v_7qG2_000
+5	20	2	#line 20 "E:\programas_lego\Levar_Carrinho.nxc"
+5	20	2	#line 20 "E:\programas_lego\Levar_Carrinho.nxc"
+5	20	2	#line 20 "E:\programas_lego\Levar_Carrinho.nxc"
+5	20	2	#line 20 "E:\programas_lego\Levar_Carrinho.nxc"
+5	20	2	#line 20 "E:\programas_lego\Levar_Carrinho.nxc"
+5	21	2		sub __D0re, __constVal0, __re_7qG2_graus_7qG2_000
+5	22	6	#line 22 "E:\programas_lego\Levar_Carrinho.nxc"
+5	23	6	#pragma macro 35
+5	23	6		acquire __rotateMutex0
+5	23	7		acquire __rotateMutex1
+5	23	8		mov __rotate_ports3, __OUT_AB
+5	23	10		mov __rotate_power3, __signed_stack_001re
+5	23	12		mov __rotate_angle3, __D0re
+5	23	14		mov __rotate_turnpct3, __constVal0
+5	23	16		mov __rotate_sync3, __constVal0
+5	23	18		mov __rotate_stop3, __constVal1
+5	23	20		mov __rotate_theRVP3, __constVal32
+5	23	22		mov __rotate_theRVI3, __constVal0
+5	23	24		mov __rotate_theRVD3, __constVal96
+5	23	26		subcall __RotateMotor3, ____RotateMotor3_return
+5	23	28		release __rotateMutex1
+5	23	29		release __rotateMutex0
+5	6569	30	#line 6569 "E:\programas_lego\Levar_Carrinho.nxc"
+5	22	30	#line 22 "E:\programas_lego\Levar_Carrinho.nxc"
+5	23	30	#line 23 "E:\programas_lego\Levar_Carrinho.nxc"
+5	24	30	#pragma macro 7
+5	24	30		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6572	53	#line 6572 "E:\programas_lego\Levar_Carrinho.nxc"
+5	23	53	#line 23 "E:\programas_lego\Levar_Carrinho.nxc"
+5	23	53	#line 23 "E:\programas_lego\Levar_Carrinho.nxc"
+5	23	53	#line 23 "E:\programas_lego\Levar_Carrinho.nxc"
+5	7921	53	#line 7921 "NXCDefs.h"
+5	7922	53		wait 200
+5	7921	55	#line 7921 "NXCDefs.h"
+5	24	55	#line 24 "E:\programas_lego\Levar_Carrinho.nxc"
+5	26	55	#line 26 "E:\programas_lego\Levar_Carrinho.nxc"
+5	27	55		subret __re_return
+6	27	0	#line 27 "E:\programas_lego\Levar_Carrinho.nxc"
+6	28	0		mov __signed_stack_001girar, __girar_7qG2_v_7qG2_000
+6	27	2	#line 27 "E:\programas_lego\Levar_Carrinho.nxc"
+6	27	2	#line 27 "E:\programas_lego\Levar_Carrinho.nxc"
+6	28	2		mov __D0girar, __girar_7qG2_graus_7qG2_000
+6	29	4	#line 29 "E:\programas_lego\Levar_Carrinho.nxc"
+6	30	4	#pragma macro 33
+6	30	4		acquire __rotateMutex1
+6	30	5		arrbuild __rotate_ports1, __constVal1
+6	30	9		mov __rotate_power1, __signed_stack_001girar
+6	30	11		mov __rotate_angle1, __D0girar
+6	30	13		mov __rotate_turnpct1, __constVal0
+6	30	15		mov __rotate_sync1, __constVal0
+6	30	17		mov __rotate_stop1, __constVal1
+6	30	19		mov __rotate_theRVP1, __constVal32
+6	30	21		mov __rotate_theRVI1, __constVal0
+6	30	23		mov __rotate_theRVD1, __constVal96
+6	30	25		subcall __RotateMotor1, ____RotateMotor1_return
+6	30	27		release __rotateMutex1
+6	6612	28	#line 6612 "E:\programas_lego\Levar_Carrinho.nxc"
+6	29	28	#line 29 "E:\programas_lego\Levar_Carrinho.nxc"
+6	30	28	#line 30 "E:\programas_lego\Levar_Carrinho.nxc"
+6	31	28	#pragma macro 7
+6	31	28		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6615	51	#line 6615 "E:\programas_lego\Levar_Carrinho.nxc"
+6	30	51	#line 30 "E:\programas_lego\Levar_Carrinho.nxc"
+6	30	51	#line 30 "E:\programas_lego\Levar_Carrinho.nxc"
+6	30	51	#line 30 "E:\programas_lego\Levar_Carrinho.nxc"
+6	7921	51	#line 7921 "NXCDefs.h"
+6	7922	51		wait 200
+6	7921	53	#line 7921 "NXCDefs.h"
+6	31	53	#line 31 "E:\programas_lego\Levar_Carrinho.nxc"
+6	33	53	#line 33 "E:\programas_lego\Levar_Carrinho.nxc"
+6	34	53		subret __girar_return
+7	86	0	#line 86 "E:\programas_lego\Levar_Carrinho.nxc"
+7	87	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\programas_lego\Levar_Carrinho.nxc
+1	__RotateMotor1	225	NXTDefs.h
+2	__RotateMotor3	379	NXTDefs.h
+3	__ResetSensorSubroutine	533	NXTDefs.h
+4	frente	546	E:\programas_lego\Levar_Carrinho.nxc
+5	re	607	E:\programas_lego\Levar_Carrinho.nxc
+6	girar	664	E:\programas_lego\Levar_Carrinho.nxc
+7	__initialize_global_data	719	E:\programas_lego\Levar_Carrinho.nxc

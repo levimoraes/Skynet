@@ -1,0 +1,478 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0girar2	6	1	0	4	2
+1	__rotate_theAngle0	5	1	4	4	2
+2	__rotate_angle1	6	1	8	4	4
+3	__rotate_theAngle1	5	1	12	4	2
+4	__rotate_angle3	6	1	16	4	4
+5	__DF0frente	10	1	20	4	2
+6	__D0girar	6	1	24	4	2
+7	__signed_stack_001frente	6	1	28	4	2
+8	__frente_7qG2_graus_7qG2_000	10	1	32	4	8
+9	__signed_stack_001girar	6	1	36	4	2
+10	__signed_stack_001girar2	6	1	40	4	2
+11	__float_stack_004frente	10	1	44	4	2
+12	__float_stack_002frente	10	1	48	4	2
+13	__rotate_theAngle3	5	1	52	4	2
+14	__float_stack_003frente	10	1	56	4	2
+15	__constValf716P197244	10	0	60	4	1
+16	__constValNegf219P91148575	10	0	64	4	1
+17	__rotate_angle0	6	1	68	4	4
+18	__constValNegf131P94689145	10	0	72	4	1
+19	__constValf552P4950168	10	0	76	4	1
+20	__rotateMutex0	9	0	80	4	4
+21	__constValf175P9291886	10	0	84	4	1
+22	__constValf1534P70838	10	0	88	4	1
+23	__rotateMutex1	9	0	92	4	4
+24	__constValf961P7505848	10	0	96	4	1
+25	__constValNegf483P80526865	10	0	100	4	1
+26	__constValf409P255568	10	0	104	4	1
+27	__constValf395P84067435	10	0	108	4	2
+28	__constValf1125P452812	10	0	112	4	1
+29	__constValf483P80526865	10	0	116	4	1
+30	__constValf450P1811248	10	0	120	4	1
+31	__rotate_OldRotCount1	4	1	124	2	2
+32	__rotate_RotCount1	4	1	126	2	4
+33	__girar_7qG2_v_7qG2_000	4	1	128	2	7
+34	__rotate_OldRotCount0	4	1	130	2	2
+35	__rotate_RotCount0	4	1	132	2	4
+36	__girar_7qG2_graus_7qG2_000	4	1	134	2	7
+37	__girar2_7qG2_graus_7qG2_000	4	1	136	2	2
+38	__rotate_OldRotCount3	4	1	138	2	2
+39	__frente_7qG2_v_7qG2_000	4	1	140	2	8
+40	__girar2_7qG2_v_7qG2_000	4	1	142	2	2
+41	__rotate_RotCount3	4	1	144	2	4
+42	__constVal32	2	0	146	1	21
+43	__constVal1	2	0	147	1	11
+44	__constVal0	2	1	148	1	33
+45	__rotate_thePower3	2	1	149	1	4
+46	__rotate_theTurnPct3	2	1	150	1	4
+47	____RotateMotor0_return	1	1	151	1	3
+48	__girar2_return	1	1	152	1	3
+49	__constVal63	2	0	153	1	3
+50	____initialize_global_data_return	1	1	154	1	3
+51	__girar_return	1	1	155	1	8
+52	__constVal96	2	0	156	1	6
+53	____RotateMotor3_return	1	1	157	1	3
+54	____RotateMotor1_return	1	1	158	1	3
+55	__frente_return	1	1	159	1	9
+56	__constVal3	2	0	160	1	3
+57	__rotate_rs3	1	1	161	1	2
+58	__rotate_theTurnPct0	2	1	162	1	4
+59	__rotate_power1	1	1	163	1	4
+60	__rotate_thePower0	2	1	164	1	4
+61	__rotate_theRVD0	1	1	165	1	2
+62	__rotate_rs0	1	1	166	1	2
+63	__rotate_turnpct1	2	1	167	1	3
+64	__rotate_theUF1	1	1	168	1	6
+65	__rotate_stop1	1	1	169	1	2
+66	__rotate_firstPort1	1	1	170	1	5
+67	__rotate_sync1	1	1	171	1	2
+68	__rotate_theRVI0	1	1	172	1	2
+69	__rotate_stop0	1	1	173	1	2
+70	__rotate_turnpct0	2	1	174	1	3
+71	__rotate_sync0	1	1	175	1	2
+72	__rotate_power0	1	1	176	1	4
+73	__rotate_firstPort0	1	1	177	1	5
+74	__rotate_theRS0	1	1	178	1	3
+75	__rotate_theRVP0	1	1	179	1	2
+76	__rotate_theRM0	1	1	180	1	4
+77	__rotate_theUF0	1	1	181	1	6
+78	__rotate_theOM0	1	1	182	1	7
+79	__rotate_theOM1	1	1	183	1	7
+80	__rotate_turnpct3	2	1	184	1	3
+81	__rotate_theUF3	1	1	185	1	6
+82	__rotate_stop3	1	1	186	1	2
+83	__rotate_firstPort3	1	1	187	1	5
+84	__rotate_sync3	1	1	188	1	2
+85	__rotate_theOM3	1	1	189	1	7
+86	__rotate_theRVI3	1	1	190	1	2
+87	__rotate_theRVD3	1	1	191	1	2
+88	__rotate_theRVP3	1	1	192	1	2
+89	__rotate_theRM3	1	1	193	1	4
+90	__rotate_theRS3	1	1	194	1	3
+91	__rotate_theRVI1	1	1	195	1	2
+92	__rotate_theRVD1	1	1	196	1	2
+93	__rotate_theRVP1	1	1	197	1	2
+94	__rotate_theRM1	1	1	198	1	4
+95	__rotate_theRS1	1	1	199	1	3
+96	__rotate_theTurnPct1	2	1	200	1	4
+97	__rotate_power3	1	1	201	1	4
+98	__rotate_thePower1	2	1	202	1	4
+99	__rotate_rs1	1	1	203	1	2
+100	__rotate_ports3	7	0	204	4	6
+101	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
+102	__OUT_AB	7	0	206	4	2
+103	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+104	__rotate_ports1	7	0	208	4	6
+105	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+106	__rotate_ports0	7	0	210	4	6
+107	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	33	0	#line 33 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	34	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	33	2	#line 33 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	33	2	#line 33 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	34	2		set __frente_7qG2_v_7qG2_000, 70
+0	33	5	#line 33 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	33	5	#line 33 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	34	5		mov __frente_7qG2_graus_7qG2_000, __constValf716P197244
+0	33	7	#line 33 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	34	7	#line 34 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	35	7		subcall frente, __frente_return
+0	34	9	#line 34 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	34	9	#line 34 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	35	9		set __girar_7qG2_v_7qG2_000, 50
+0	34	12	#line 34 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	34	12	#line 34 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	35	12		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
+0	34	14	#line 34 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	35	14	#line 35 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	36	14		subcall girar, __girar_return
+0	35	16	#line 35 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	35	16	#line 35 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	36	16		set __frente_7qG2_v_7qG2_000, 75
+0	35	19	#line 35 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	35	19	#line 35 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	36	19		mov __frente_7qG2_graus_7qG2_000, __constValf1125P452812
+0	35	21	#line 35 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	36	21	#line 36 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	37	21		subcall frente, __frente_return
+0	36	23	#line 36 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	36	23	#line 36 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	37	23		set __girar2_7qG2_v_7qG2_000, 50
+0	36	26	#line 36 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	36	26	#line 36 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	37	26		mov __girar2_7qG2_graus_7qG2_000, __constValNegf483P80526865
+0	36	28	#line 36 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	37	28	#line 37 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	38	28		subcall girar2, __girar2_return
+0	37	30	#line 37 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	37	30	#line 37 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	38	30		set __frente_7qG2_v_7qG2_000, 75
+0	37	33	#line 37 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	37	33	#line 37 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	38	33		mov __frente_7qG2_graus_7qG2_000, __constValf409P255568
+0	37	35	#line 37 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	38	35	#line 38 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	39	35		subcall frente, __frente_return
+0	38	37	#line 38 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	38	37	#line 38 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	39	37		set __girar_7qG2_v_7qG2_000, 50
+0	38	40	#line 38 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	38	40	#line 38 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	39	40		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
+0	38	42	#line 38 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	39	42	#line 39 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	40	42		subcall girar, __girar_return
+0	39	44	#line 39 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	39	44	#line 39 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	40	44		set __frente_7qG2_v_7qG2_000, 75
+0	39	47	#line 39 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	39	47	#line 39 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	40	47		mov __frente_7qG2_graus_7qG2_000, __constValf450P1811248
+0	39	49	#line 39 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	40	49	#line 40 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	41	49		subcall frente, __frente_return
+0	40	51	#line 40 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	40	51	#line 40 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	41	51		set __girar_7qG2_v_7qG2_000, 50
+0	40	54	#line 40 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	40	54	#line 40 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	41	54		mov __girar_7qG2_graus_7qG2_000, __constValf483P80526865
+0	40	56	#line 40 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	41	56	#line 41 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	42	56		subcall girar, __girar_return
+0	41	58	#line 41 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	41	58	#line 41 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	42	58		set __frente_7qG2_v_7qG2_000, 75
+0	41	61	#line 41 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	41	61	#line 41 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	42	61		mov __frente_7qG2_graus_7qG2_000, __constValf961P7505848
+0	41	63	#line 41 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	42	63	#line 42 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	43	63		subcall frente, __frente_return
+0	42	65	#line 42 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	42	65	#line 42 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	43	65		set __girar_7qG2_v_7qG2_000, 50
+0	42	68	#line 42 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	42	68	#line 42 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	43	68		mov __girar_7qG2_graus_7qG2_000, __constValNegf131P94689145
+0	42	70	#line 42 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	43	70	#line 43 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	44	70		subcall girar, __girar_return
+0	43	72	#line 43 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	43	72	#line 43 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	44	72		set __frente_7qG2_v_7qG2_000, 75
+0	43	75	#line 43 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	43	75	#line 43 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	44	75		mov __frente_7qG2_graus_7qG2_000, __constValf552P4950168
+0	43	77	#line 43 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	44	77	#line 44 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	45	77		subcall frente, __frente_return
+0	44	79	#line 44 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	44	79	#line 44 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	45	79		set __girar_7qG2_v_7qG2_000, 50
+0	44	82	#line 44 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	44	82	#line 44 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	45	82		mov __girar_7qG2_graus_7qG2_000, __constValNegf219P91148575
+0	44	84	#line 44 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	45	84	#line 45 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	46	84		subcall girar, __girar_return
+0	45	86	#line 45 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	45	86	#line 45 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	46	86		set __frente_7qG2_v_7qG2_000, 75
+0	45	89	#line 45 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	45	89	#line 45 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	46	89		mov __frente_7qG2_graus_7qG2_000, __constValf1534P70838
+0	45	91	#line 45 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	46	91	#line 46 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	47	91		subcall frente, __frente_return
+0	46	93	#line 46 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	46	93	#line 46 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	47	93		set __girar_7qG2_v_7qG2_000, 50
+0	46	96	#line 46 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	46	96	#line 46 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	47	96		mov __girar_7qG2_graus_7qG2_000, __constValf175P9291886
+0	46	98	#line 46 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	47	98	#line 47 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	48	98		subcall girar, __girar_return
+0	47	100	#line 47 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+0	48	100		exit -1, -1
+1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	4477	3		sign __rotate_thePower0, __rotate_angle0
+1	4478	6		abs __rotate_theAngle0, __rotate_angle0
+1	4479	9		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	4481	13		set __rotate_theUF0, 23
+1	4482	16		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	4483	19		set __rotate_theOM0, 7
+1	4484	22		set __rotate_theRM0, 2
+1	4485	25		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	4486	27		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	4487	30		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	4488	34		jmp __rotate_Start0
+1	4490	36		set __rotate_theOM0, 3
+1	4491	39		set __rotate_theRM0, 0
+1	4492	42		set __rotate_theTurnPct0, 0
+1	4494	45		set __rotate_theRS0, 32
+1	4495	48		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	4498	71		index __rotate_firstPort0, __rotate_ports0, 65535
+1	4500	75		getout __rotate_power0, __rotate_firstPort0, 2
+1	4501	79		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	4502	82		getout __rotate_rs0, __rotate_firstPort0, 6
+1	4503	86		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	4505	90		brtst 4, __rotate_Reset0, __rotate_stop0
+1	4507	93		set __rotate_theOM0, 7
+1	4508	96		set __rotate_theUF0, 7
+1	4509	99		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	4511	114		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4513	118		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	4514	120		wait 50
+1	4516	122		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4517	126		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	4518	130		set __rotate_theOM0, 4
+1	4519	133		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	4522	144		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	4523	147		setout __rotate_ports0, 0, __constVal32
+1	4525	152		subret ____RotateMotor0_return
+2	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+2	4530	3		sign __rotate_thePower1, __rotate_angle1
+2	4531	6		abs __rotate_theAngle1, __rotate_angle1
+2	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+2	4534	13		set __rotate_theUF1, 23
+2	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+2	4536	19		set __rotate_theOM1, 7
+2	4537	22		set __rotate_theRM1, 2
+2	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+2	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+2	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+2	4541	34		jmp __rotate_Start1
+2	4543	36		set __rotate_theOM1, 3
+2	4544	39		set __rotate_theRM1, 0
+2	4545	42		set __rotate_theTurnPct1, 0
+2	4547	45		set __rotate_theRS1, 32
+2	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+2	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+2	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+2	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+2	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+2	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+2	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+2	4560	93		set __rotate_theOM1, 7
+2	4561	96		set __rotate_theUF1, 7
+2	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+2	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+2	4567	120		wait 50
+2	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+2	4571	130		set __rotate_theOM1, 4
+2	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+2	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+2	4576	147		setout __rotate_ports1, 0, __constVal32
+2	4578	152		subret ____RotateMotor1_return
+3	4635	0		brtst 4, __rotate_Done3, __rotate_angle3
+3	4636	3		sign __rotate_thePower3, __rotate_angle3
+3	4637	6		abs __rotate_theAngle3, __rotate_angle3
+3	4638	9		mul __rotate_thePower3, __rotate_thePower3, __rotate_power3
+3	4640	13		set __rotate_theUF3, 23
+3	4641	16		brtst 4, __rotate_NoSync3, __rotate_sync3
+3	4642	19		set __rotate_theOM3, 7
+3	4643	22		set __rotate_theRM3, 2
+3	4644	25		mov __rotate_theTurnPct3, __rotate_turnpct3
+3	4645	27		brtst 4, __rotate_Start3, __rotate_theTurnPct3
+3	4646	30		add __rotate_theUF3, __rotate_theUF3, __constVal32
+3	4647	34		jmp __rotate_Start3
+3	4649	36		set __rotate_theOM3, 3
+3	4650	39		set __rotate_theRM3, 0
+3	4651	42		set __rotate_theTurnPct3, 0
+3	4653	45		set __rotate_theRS3, 32
+3	4654	48		setout __rotate_ports3, 1, __rotate_theOM3, 8, __rotate_theRM3, 5, __rotate_theAngle3, 6, __rotate_theRS3, 10, __rotate_theRVP3, 11, __rotate_theRVI3, 12, __rotate_theRVD3, 2, __rotate_thePower3, 7, __rotate_turnpct3, 0, __rotate_theUF3
+3	4657	71		index __rotate_firstPort3, __rotate_ports3, 65535
+3	4659	75		getout __rotate_power3, __rotate_firstPort3, 2
+3	4660	79		brtst 4, __rotate_doneRunning3, __rotate_power3
+3	4661	82		getout __rotate_rs3, __rotate_firstPort3, 6
+3	4662	86		brcmp 4, __rotate_Running3, __rotate_rs3, __constVal32
+3	4664	90		brtst 4, __rotate_Reset3, __rotate_stop3
+3	4666	93		set __rotate_theOM3, 7
+3	4667	96		set __rotate_theUF3, 7
+3	4668	99		setout __rotate_ports3, 1, __rotate_theOM3, 8, __constVal1, 6, __rotate_theRS3, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF3
+3	4670	114		getout __rotate_RotCount3, __rotate_firstPort3, 14
+3	4672	118		mov __rotate_OldRotCount3, __rotate_RotCount3
+3	4673	120		wait 50
+3	4675	122		getout __rotate_RotCount3, __rotate_firstPort3, 14
+3	4676	126		brcmp 5, __rotate_Stabilize3, __rotate_OldRotCount3, __rotate_RotCount3
+3	4677	130		set __rotate_theOM3, 4
+3	4678	133		setout __rotate_ports3, 8, __rotate_theRM3, 6, __constVal0, 1, __rotate_theOM3, 0, __constVal1
+3	4681	144		brtst 4, __rotate_Done3, __rotate_theTurnPct3
+3	4682	147		setout __rotate_ports3, 0, __constVal32
+3	4684	152		subret ____RotateMotor3_return
+4	6	0	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	7	0		mov __signed_stack_001frente, __frente_7qG2_v_7qG2_000
+4	6	2	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	6	2	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	7	2		mov __float_stack_002frente, __frente_7qG2_graus_7qG2_000
+4	6	4	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	6	4	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	7	4		mov __float_stack_003frente, __constVal0
+4	6	6	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	6	6	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	7	6		mov __float_stack_004frente, __constVal1
+4	6	8	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	6	8	#line 6 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	7	8		mov __DF0frente, __constVal0
+4	7	10	#line 7 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	8	10	#pragma macro 35
+4	8	10		acquire __rotateMutex0
+4	8	11		acquire __rotateMutex1
+4	8	12		mov __rotate_ports3, __OUT_AB
+4	8	14		mov __rotate_power3, __signed_stack_001frente
+4	8	16		mov __rotate_angle3, __float_stack_002frente
+4	8	18		mov __rotate_turnpct3, __float_stack_003frente
+4	8	20		mov __rotate_sync3, __float_stack_004frente
+4	8	22		mov __rotate_stop3, __DF0frente
+4	8	24		mov __rotate_theRVP3, __constVal32
+4	8	26		mov __rotate_theRVI3, __constVal0
+4	8	28		mov __rotate_theRVD3, __constVal96
+4	8	30		subcall __RotateMotor3, ____RotateMotor3_return
+4	8	32		release __rotateMutex1
+4	8	33		release __rotateMutex0
+4	6364	34	#line 6364 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	7	34	#line 7 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	8	34	#line 8 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	9	34	#pragma macro 7
+4	9	34		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6367	57	#line 6367 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	7921	57	#line 7921 "NXCDefs.h"
+4	7922	57		wait 200
+4	7921	59	#line 7921 "NXCDefs.h"
+4	9	59	#line 9 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	11	59	#line 11 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+4	12	59		subret __frente_return
+5	18	0	#line 18 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	19	0		mov __signed_stack_001girar2, __girar2_7qG2_v_7qG2_000
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	18	2	#line 18 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	19	2		sub __D0girar2, __constVal0, __girar2_7qG2_graus_7qG2_000
+5	19	6	#line 19 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	20	6	#pragma macro 33
+5	20	6		acquire __rotateMutex0
+5	20	7		arrbuild __rotate_ports0, __constVal0
+5	20	11		mov __rotate_power0, __signed_stack_001girar2
+5	20	13		mov __rotate_angle0, __D0girar2
+5	20	15		mov __rotate_turnpct0, __constVal0
+5	20	17		mov __rotate_sync0, __constVal0
+5	20	19		mov __rotate_stop0, __constVal1
+5	20	21		mov __rotate_theRVP0, __constVal32
+5	20	23		mov __rotate_theRVI0, __constVal0
+5	20	25		mov __rotate_theRVD0, __constVal96
+5	20	27		subcall __RotateMotor0, ____RotateMotor0_return
+5	20	29		release __rotateMutex0
+5	6462	30	#line 6462 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	19	30	#line 19 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	20	30	#line 20 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	21	30	#pragma macro 7
+5	21	30		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6465	53	#line 6465 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	20	53	#line 20 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	20	53	#line 20 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	20	53	#line 20 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	7921	53	#line 7921 "NXCDefs.h"
+5	7922	53		wait 200
+5	7921	55	#line 7921 "NXCDefs.h"
+5	21	55	#line 21 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	23	55	#line 23 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+5	24	55		subret __girar2_return
+6	24	0	#line 24 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	25	0		mov __signed_stack_001girar, __girar_7qG2_v_7qG2_000
+6	24	2	#line 24 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	24	2	#line 24 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	25	2		mov __D0girar, __girar_7qG2_graus_7qG2_000
+6	25	4	#line 25 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	26	4	#pragma macro 33
+6	26	4		acquire __rotateMutex1
+6	26	5		arrbuild __rotate_ports1, __constVal1
+6	26	9		mov __rotate_power1, __signed_stack_001girar
+6	26	11		mov __rotate_angle1, __D0girar
+6	26	13		mov __rotate_turnpct1, __constVal0
+6	26	15		mov __rotate_sync1, __constVal0
+6	26	17		mov __rotate_stop1, __constVal1
+6	26	19		mov __rotate_theRVP1, __constVal32
+6	26	21		mov __rotate_theRVI1, __constVal0
+6	26	23		mov __rotate_theRVD1, __constVal96
+6	26	25		subcall __RotateMotor1, ____RotateMotor1_return
+6	26	27		release __rotateMutex1
+6	6505	28	#line 6505 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	25	28	#line 25 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	26	28	#line 26 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	27	28	#pragma macro 7
+6	27	28		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6508	51	#line 6508 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	26	51	#line 26 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	26	51	#line 26 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	26	51	#line 26 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	7921	51	#line 7921 "NXCDefs.h"
+6	7922	51		wait 200
+6	7921	53	#line 7921 "NXCDefs.h"
+6	27	53	#line 27 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	28	53	#line 28 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+6	29	53		subret __girar_return
+7	50	0	#line 50 "G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc"
+7	51	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc
+1	__RotateMotor0	103	NXTDefs.h
+2	__RotateMotor1	257	NXTDefs.h
+3	__RotateMotor3	411	NXTDefs.h
+4	frente	565	G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc
+5	girar2	626	G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc
+6	girar	683	G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc
+7	__initialize_global_data	738	G:\Principios de Robótica Educacional\programas_lego\pessoas2.nxc

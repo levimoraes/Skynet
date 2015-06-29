@@ -1,8 +1,11 @@
 #define VOL 3
 
+#define A3 220
+#define A4 440
+#define A6 1760
 #define A9 14080
 #define A10 14080
-#define A6 1760
+
 
 #define D8 4699
 #define D5 587
@@ -27,23 +30,26 @@
 #define B7 3951
 
 
-#define A3 220
-#define A4 440
-
-
-
-
 
 
 
 task main()
 {
-PlayToneEx(A3,400,VOL,FALSE); Wait(500);
-PlayToneEx(A3,400,VOL,FALSE); Wait(500);
-PlayToneEx(A3,400,VOL,FALSE); Wait(500);
-PlayToneEx(A4,400,VOL,FALSE); Wait(500);
-PlayToneEx(D4,1600,VOL,FALSE); Wait(500);
-PlayToneEx(D5,400,VOL,FALSE); Wait(500);
+PlayToneEx(A3,400,VOL,FALSE); Wait(200);
+PlayToneEx(A3,400,VOL,FALSE); Wait(200);
+PlayToneEx(A3,400,VOL,FALSE); Wait(200);
+PlayToneEx(A4,400,VOL,FALSE); Wait(200);
+PlayToneEx(D4,1600,VOL,FALSE); Wait(200);
+PlayToneEx(D5,400,VOL,FALSE); Wait(200);
+PlayToneEx(A4,400,VOL,FALSE); Wait(200);
+PlayToneEx(D4,400,VOL,FALSE); Wait(200);
+PlayToneEx(D5,400,VOL,FALSE); Wait(200);
+PlayToneEx(A3,400,VOL,FALSE); Wait(200);
+PlayToneEx(A3,400,VOL,FALSE); Wait(200);
+PlayToneEx(A3,400,VOL,FALSE); Wait(200);
+PlayToneEx(A4,400,VOL,FALSE); Wait(200);
+PlayToneEx(D4,1600,VOL,FALSE); Wait(200);
+PlayToneEx(D5,400,VOL,FALSE); Wait(200);
 PlayToneEx(A4,400,VOL,FALSE); Wait(500);
 PlayToneEx(D4,400,VOL,FALSE); Wait(500);
 PlayToneEx(D5,400,VOL,FALSE); Wait(500);

@@ -1,0 +1,485 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0re	6	1	0	4	2
+1	__D0main	6	1	4	4	20
+2	__D0SetSensorLowspeed_inline_main	6	1	8	4	3
+3	__signed_stack_001frente	6	1	12	4	2
+4	__DU0SetSensorLowspeed_inline_main	5	1	16	4	2
+5	__CLSWMutex0	9	0	20	4	2
+6	__CLSCSMutex0	9	0	24	4	2
+7	__CLSRMutex0	9	0	28	4	2
+8	__DF0frente	10	1	32	4	2
+9	__RLSBmutex0	9	0	36	4	2
+10	__float_stack_002frente	10	1	40	4	2
+11	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	44	4	2
+12	__constValf1596P0967152	10	0	48	4	1
+13	__constValf1534P70838	10	0	52	4	1
+14	__constValf1125P452812	10	0	56	4	1
+15	__constValf20P4627784	10	0	60	4	1
+16	__float_stack_004frente	10	1	64	4	2
+17	__float_stack_003frente	10	1	68	4	2
+18	__signed_stack_001main	6	1	72	4	4
+19	__frente_7qG2_graus_7qG2_000	10	1	76	4	3
+20	__signed_stack_001re	6	1	80	4	2
+21	__rotate_theAngle3	5	1	84	4	2
+22	__rotate_angle3	6	1	88	4	5
+23	__rotateMutex1	9	0	92	4	4
+24	__rotateMutex0	9	0	96	4	4
+25	__rotate_OldRotCount3	4	1	100	2	2
+26	__rotate_RotCount3	4	1	102	2	4
+27	__re_7qG2_graus_7qG2_000	4	1	104	2	3
+28	__frente_7qG2_v_7qG2_000	4	1	106	2	3
+29	__re_7qG2_v_7qG2_000	4	1	108	2	3
+30	__rotate_sync3	1	1	110	1	3
+31	__rotate_stop3	1	1	111	1	3
+32	__rotate_firstPort3	1	1	112	1	5
+33	__frente_return	1	1	113	1	4
+34	__rotate_power3	1	1	114	1	5
+35	__zfSetSensorLowspeed_inline_main	1	1	115	1	2
+36	__rotate_theRM3	1	1	116	1	4
+37	__rotate_theOM3	1	1	117	1	7
+38	__rotate_turnpct3	2	1	118	1	4
+39	__rotate_theUF3	1	1	119	1	6
+40	__constVal96	2	0	120	1	11
+41	____initialize_global_data_return	1	1	121	1	3
+42	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	122	1	2
+43	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	123	1	4
+44	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	124	1	2
+45	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	125	1	2
+46	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	126	1	4
+47	__constVal63	2	0	127	1	9
+48	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	128	1	2
+49	__re_return	1	1	129	1	4
+50	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	130	1	2
+51	__constVal1	2	0	131	1	9
+52	__rotate_thePower3	2	1	132	1	4
+53	____ReadLSBytes0_return	1	1	133	1	3
+54	__constVal32	2	0	134	1	33
+55	__rotate_rs3	1	1	135	1	2
+56	____ResetSensorSubroutine_return	1	1	136	1	4
+57	____RotateMotor3_return	1	1	137	1	4
+58	__constVal0	2	1	138	1	43
+59	__constVal3	2	0	139	1	9
+60	__ResetSensorTmp	1	1	140	1	2
+61	__ResetSensorPort	1	1	141	1	4
+62	__rotate_theRVD3	1	1	142	1	3
+63	__constVal2	2	0	143	1	4
+64	__rotate_theRS3	1	1	144	1	3
+65	__rotate_theRVP3	1	1	145	1	3
+66	__zfmain	1	1	146	1	10
+67	__rotate_theRVI3	1	1	147	1	3
+68	__RLSBytesCount0	1	1	148	1	7
+69	__rotate_theTurnPct3	2	1	149	1	4
+70	__RLSBResult0	2	1	150	1	7
+71	__RLSBIterations0	1	1	151	1	4
+72	__CLSWArgs0	8	0	4	12	5
+73	__CLSWArgs0.Result	2	1	152	1	5
+74	__CLSWArgs0.Port	1	1	153	1	5
+75	__CLSWArgs0.Buffer	7	0	154	4	5
+76	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+77	__CLSWArgs0.ReturnLen	1	1	156	1	5
+78	__CLSCSArgs0	8	0	3	4	4
+79	__CLSCSArgs0.Result	2	1	160	1	4
+80	__CLSCSArgs0.Port	1	1	161	1	4
+81	__CLSCSArgs0.BytesReady	1	1	162	1	4
+82	__CLSRArgs0	8	0	4	12	5
+83	__CLSRArgs0.Result	2	1	164	1	5
+84	__CLSRArgs0.Port	1	1	165	1	5
+85	__CLSRArgs0.Buffer	7	0	166	4	5
+86	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+87	__CLSRArgs0.BufferLen	1	1	168	1	5
+88	__OUT_AB	7	0	170	4	7
+89	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+90	__rotate_ports3	7	0	172	4	7
+91	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
+92	__RLSReadBuf0	7	0	174	4	8
+93	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+94	__RLSBbufLSWrite1	7	0	176	4	1
+95	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+96	__RLSLastGoodRead0	7	0	178	4	2
+97	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	25	0	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	26	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	25	2	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	25	2	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	26	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	25	5	#line 25 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	26	5	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	27	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6653	44	#line 6653 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3761	44	#line 3761 "NXCDefs.h"
+0	26	44	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	26	44	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	27	44		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	26	47	#line 26 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	3718	47	#line 3718 "NXCDefs.h"
+0	3719	47	#pragma macro 6
+0	3719	47		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	51		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	55		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	57		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6668	59	#line 6668 "NXCDefs.h"
+0	3718	59	#line 3718 "NXCDefs.h"
+0	27	59	#line 27 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	27	59	#line 27 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	28	59		set __D0main, 50
+0	28	62	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	29	62	#pragma macro 7
+0	29	62		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6676	85	#line 6676 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	28	85	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	28	85	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	29	85		set __frente_7qG2_v_7qG2_000, 50
+0	28	88	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	28	88	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	29	88		mov __frente_7qG2_graus_7qG2_000, __constValf1596P0967152
+0	28	90	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	29	90	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	30	90		subcall frente, __frente_return
+0	29	92	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	29	92	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	30	92		set __D0main, -25
+0	30	95	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	31	95	#pragma macro 7
+0	31	95		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6698	118	#line 6698 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	30	118	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	30	118	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	31	118		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	30	121	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	7921	121	#line 7921 "NXCDefs.h"
+0	7922	121		wait 200
+0	7921	123	#line 7921 "NXCDefs.h"
+0	31	123	#line 31 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	32	123	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	33	123	#pragma macro 7
+0	33	123		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6715	146	#line 6715 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	32	146	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	32	146	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	33	146		set __re_7qG2_v_7qG2_000, 50
+0	32	149	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	32	149	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	33	149		mov __re_7qG2_graus_7qG2_000, __constValf1534P70838
+0	32	151	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	33	151	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	34	151		subcall re, __re_return
+0	33	153	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	33	153	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	34	153		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	33	156	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	7921	156	#line 7921 "NXCDefs.h"
+0	7922	156		wait 5000
+0	7921	158	#line 7921 "NXCDefs.h"
+0	34	158	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	34	158	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	35	158		set __D0main, 50
+0	37	161	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	38	161	#pragma macro 7
+0	38	161		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6747	184	#line 6747 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	37	184	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	37	184	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	38	184		set __D0main, 1
+0	38	187	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	39	187		tst 5, __zfmain, __D0main
+0	38	190	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	39	190		brtst 4, __NXC_Label_651, __zfmain
+0	38	193	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	39	193	#pragma macro 26
+0	39	193		acquire __RLSBmutex0
+0	39	194		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	39	196		set __RLSBytesCount0, 1
+0	39	199		wait 15
+0	39	201		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	39	203		index __D0main, __RLSReadBuf0, 65535
+0	39	207		release __RLSBmutex0
+0	6759	208	#line 6759 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	38	208	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	39	208		mov __signed_stack_001main, __D0main
+0	38	210	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	39	210		set __D0main, 30
+0	38	213	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	39	213		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	38	217	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	39	217		mov __D0main, __zfmain
+0	39	219	#line 39 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	40	219		brtst 4, __NXC_Label_656, __zfmain
+0	40	222	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	41	222	#pragma macro 7
+0	41	222		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6773	245	#line 6773 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	40	245	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	40	245	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	41	245		set __frente_7qG2_v_7qG2_000, 50
+0	40	248	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	40	248	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	41	248		mov __frente_7qG2_graus_7qG2_000, __constValf20P4627784
+0	40	250	#line 40 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	41	250	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	42	250		subcall frente, __frente_return
+0	41	252	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	41	252	#line 41 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	42	252		set __D0main, 25
+0	42	255	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	43	255	#pragma macro 7
+0	43	255		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6795	278	#line 6795 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	42	278	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	42	278	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	43	278		set __D0main, 1
+0	43	281	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	44	281		tst 5, __zfmain, __D0main
+0	43	284	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	44	284		brtst 4, __NXC_Label_664, __zfmain
+0	43	287	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	44	287		getin __signed_stack_001main, __constVal1, 4
+0	43	291	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	43	291	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	44	291		set __D0main, 1
+0	43	294	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	44	294		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	43	298	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	44	298		mov __D0main, __zfmain
+0	44	300	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	45	300		brtst 4, __NXC_Label_669, __zfmain
+0	45	303	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	46	303	#pragma macro 7
+0	46	303		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6821	326	#line 6821 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	45	326	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	45	326	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	46	326		set __re_7qG2_v_7qG2_000, 50
+0	45	329	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	45	329	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	46	329		mov __re_7qG2_graus_7qG2_000, __constValf1125P452812
+0	45	331	#line 45 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	46	331	#line 46 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	47	331		subcall re, __re_return
+0	46	333	#line 46 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	48	333	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	49	333	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	50	333		jmp __NXC_Label_663
+0	49	335	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	50	335	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	52	335	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	53	335		jmp __NXC_Label_650
+0	52	337	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+0	53	337		exit -1, -1
+1	4635	0		brtst 4, __rotate_Done3, __rotate_angle3
+1	4636	3		sign __rotate_thePower3, __rotate_angle3
+1	4637	6		abs __rotate_theAngle3, __rotate_angle3
+1	4638	9		mul __rotate_thePower3, __rotate_thePower3, __rotate_power3
+1	4640	13		set __rotate_theUF3, 23
+1	4641	16		brtst 4, __rotate_NoSync3, __rotate_sync3
+1	4642	19		set __rotate_theOM3, 7
+1	4643	22		set __rotate_theRM3, 2
+1	4644	25		mov __rotate_theTurnPct3, __rotate_turnpct3
+1	4645	27		brtst 4, __rotate_Start3, __rotate_theTurnPct3
+1	4646	30		add __rotate_theUF3, __rotate_theUF3, __constVal32
+1	4647	34		jmp __rotate_Start3
+1	4649	36		set __rotate_theOM3, 3
+1	4650	39		set __rotate_theRM3, 0
+1	4651	42		set __rotate_theTurnPct3, 0
+1	4653	45		set __rotate_theRS3, 32
+1	4654	48		setout __rotate_ports3, 1, __rotate_theOM3, 8, __rotate_theRM3, 5, __rotate_theAngle3, 6, __rotate_theRS3, 10, __rotate_theRVP3, 11, __rotate_theRVI3, 12, __rotate_theRVD3, 2, __rotate_thePower3, 7, __rotate_turnpct3, 0, __rotate_theUF3
+1	4657	71		index __rotate_firstPort3, __rotate_ports3, 65535
+1	4659	75		getout __rotate_power3, __rotate_firstPort3, 2
+1	4660	79		brtst 4, __rotate_doneRunning3, __rotate_power3
+1	4661	82		getout __rotate_rs3, __rotate_firstPort3, 6
+1	4662	86		brcmp 4, __rotate_Running3, __rotate_rs3, __constVal32
+1	4664	90		brtst 4, __rotate_Reset3, __rotate_stop3
+1	4666	93		set __rotate_theOM3, 7
+1	4667	96		set __rotate_theUF3, 7
+1	4668	99		setout __rotate_ports3, 1, __rotate_theOM3, 8, __constVal1, 6, __rotate_theRS3, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF3
+1	4670	114		getout __rotate_RotCount3, __rotate_firstPort3, 14
+1	4672	118		mov __rotate_OldRotCount3, __rotate_RotCount3
+1	4673	120		wait 50
+1	4675	122		getout __rotate_RotCount3, __rotate_firstPort3, 14
+1	4676	126		brcmp 5, __rotate_Stabilize3, __rotate_OldRotCount3, __rotate_RotCount3
+1	4677	130		set __rotate_theOM3, 4
+1	4678	133		setout __rotate_ports3, 8, __rotate_theRM3, 6, __constVal0, 1, __rotate_theOM3, 0, __constVal1
+1	4681	144		brtst 4, __rotate_Done3, __rotate_theTurnPct3
+1	4682	147		setout __rotate_ports3, 0, __constVal32
+1	4684	152		subret ____RotateMotor3_return
+2	4885	0		setin __constVal1, __ResetSensorPort, 5
+2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	4889	11		subret ____ResetSensorSubroutine_return
+3	5672	0	#pragma macro 25
+3	5672	0		acquire __CLSWMutex0
+3	5672	1		set __CLSWArgs0.Port, 0
+3	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+3	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+3	5672	8		syscall 21, __CLSWArgs0
+3	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+3	5672	13		release __CLSWMutex0
+3	5673	14	#line 5673 "NXTDefs.h"
+3	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+3	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+3	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+3	5677	24		set __RLSBIterations0, 4
+3	5679	27	#pragma macro 23
+3	5679	27		acquire __CLSCSMutex0
+3	5679	28		set __CLSCSArgs0.Port, 0
+3	5679	31		syscall 23, __CLSCSArgs0
+3	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+3	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+3	5679	38		release __CLSCSMutex0
+3	5679	39	#line 5679 "NXTDefs.h"
+3	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+3	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+3	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+3	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+3	5685	52		wait 15
+3	5686	54		jmp __RLSBDoCheckStatus0
+3	5689	56	#pragma macro 25
+3	5689	56		acquire __CLSRMutex0
+3	5689	57		set __CLSRArgs0.Port, 0
+3	5689	60		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+3	5689	62		syscall 22, __CLSRArgs0
+3	5689	65		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+3	5689	67		mov __RLSBResult0, __CLSRArgs0.Result
+3	5689	69		release __CLSRMutex0
+3	5689	70	#line 5689 "NXTDefs.h"
+3	5690	70		brtst 5, __RLSBError0, __RLSBResult0
+3	5691	73		mov __RLSLastGoodRead0, __RLSReadBuf0
+3	5692	75		jmp __RLSBDone0
+3	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
+3	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
+3	5698	82		subret ____ReadLSBytes0_return
+4	6	0	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	7	0		mov __signed_stack_001frente, __frente_7qG2_v_7qG2_000
+4	6	2	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	6	2	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	7	2		mov __float_stack_002frente, __frente_7qG2_graus_7qG2_000
+4	6	4	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	6	4	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	7	4		mov __float_stack_003frente, __constVal0
+4	6	6	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	6	6	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	7	6		mov __float_stack_004frente, __constVal1
+4	6	8	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	6	8	#line 6 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	7	8		mov __DF0frente, __constVal0
+4	7	10	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	8	10	#pragma macro 35
+4	8	10		acquire __rotateMutex0
+4	8	11		acquire __rotateMutex1
+4	8	12		mov __rotate_ports3, __OUT_AB
+4	8	14		mov __rotate_power3, __signed_stack_001frente
+4	8	16		mov __rotate_angle3, __float_stack_002frente
+4	8	18		mov __rotate_turnpct3, __float_stack_003frente
+4	8	20		mov __rotate_sync3, __float_stack_004frente
+4	8	22		mov __rotate_stop3, __DF0frente
+4	8	24		mov __rotate_theRVP3, __constVal32
+4	8	26		mov __rotate_theRVI3, __constVal0
+4	8	28		mov __rotate_theRVD3, __constVal96
+4	8	30		subcall __RotateMotor3, ____RotateMotor3_return
+4	8	32		release __rotateMutex1
+4	8	33		release __rotateMutex0
+4	6442	34	#line 6442 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	7	34	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	8	34	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	9	34	#pragma macro 7
+4	9	34		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6445	57	#line 6445 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	8	57	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	7921	57	#line 7921 "NXCDefs.h"
+4	7922	57		wait 200
+4	7921	59	#line 7921 "NXCDefs.h"
+4	9	59	#line 9 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	11	59	#line 11 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+4	12	59		subret __frente_return
+5	12	0	#line 12 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	13	0		mov __signed_stack_001re, __re_7qG2_v_7qG2_000
+5	12	2	#line 12 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	12	2	#line 12 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	12	2	#line 12 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	12	2	#line 12 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	12	2	#line 12 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	13	2		sub __D0re, __constVal0, __re_7qG2_graus_7qG2_000
+5	13	6	#line 13 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	14	6	#pragma macro 35
+5	14	6		acquire __rotateMutex0
+5	14	7		acquire __rotateMutex1
+5	14	8		mov __rotate_ports3, __OUT_AB
+5	14	10		mov __rotate_power3, __signed_stack_001re
+5	14	12		mov __rotate_angle3, __D0re
+5	14	14		mov __rotate_turnpct3, __constVal0
+5	14	16		mov __rotate_sync3, __constVal0
+5	14	18		mov __rotate_stop3, __constVal1
+5	14	20		mov __rotate_theRVP3, __constVal32
+5	14	22		mov __rotate_theRVI3, __constVal0
+5	14	24		mov __rotate_theRVD3, __constVal96
+5	14	26		subcall __RotateMotor3, ____RotateMotor3_return
+5	14	28		release __rotateMutex1
+5	14	29		release __rotateMutex0
+5	6491	30	#line 6491 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	13	30	#line 13 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	14	30	#line 14 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	15	30	#pragma macro 7
+5	15	30		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6494	53	#line 6494 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	14	53	#line 14 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	14	53	#line 14 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	14	53	#line 14 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	7921	53	#line 7921 "NXCDefs.h"
+5	7922	53		wait 200
+5	7921	55	#line 7921 "NXCDefs.h"
+5	15	55	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	17	55	#line 17 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+5	18	55		subret __re_return
+6	53	0	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc"
+6	54	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc
+1	__RotateMotor3	340	NXTDefs.h
+2	__ResetSensorSubroutine	494	NXTDefs.h
+3	__ReadLSBytes0	507	NXTDefs.h
+4	frente	591	G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc
+5	re	652	G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc
+6	__initialize_global_data	709	G:\Principios de Robótica Educacional\programas_lego\Tsunami.nxc

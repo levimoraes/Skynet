@@ -1,0 +1,458 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__rotate_theAngle1	5	1	0	4	2
+1	__D0main	6	1	4	4	4
+2	__signed_stack_001frente	6	1	8	4	2
+3	__D0re	6	1	12	4	2
+4	__constValf859P4366928	10	0	16	4	1
+5	__constValf395P84067435	10	0	20	4	1
+6	__D0girar	6	1	24	4	2
+7	__DF0frente	10	1	28	4	2
+8	__signed_stack_001girar	6	1	32	4	2
+9	__float_stack_004frente	10	1	36	4	2
+10	__signed_stack_001re	6	1	40	4	2
+11	__frente_7qG2_graus_7qG2_000	10	1	44	4	6
+12	__rotate_theAngle3	5	1	48	4	2
+13	__rotate_angle3	6	1	52	4	5
+14	__float_stack_003frente	10	1	56	4	2
+15	__float_stack_002frente	10	1	60	4	2
+16	__constValf2353P219516	10	0	64	4	1
+17	__rotate_angle1	6	1	68	4	4
+18	__constValf204P627784	10	0	72	4	1
+19	__constValf65P973445725	10	0	76	4	1
+20	__rotateMutex0	9	0	80	4	4
+21	__constValf1637P022272	10	0	84	4	1
+22	__constValNegf153P938040025	10	0	88	4	1
+23	__rotateMutex1	9	0	92	4	6
+24	__constValf613P883352	10	0	96	4	1
+25	__constValNegf65P973445725	10	0	100	4	1
+26	__constValf409P255568	10	0	104	4	1
+27	__constValf43P98229715	10	0	108	4	1
+28	__constValf197P920337175	10	0	112	4	1
+29	__constValf1125P452812	10	0	116	4	1
+30	__constValf2639P6984136	10	0	120	4	1
+31	__constValf1432P394488	10	0	124	4	1
+32	__rotate_RotCount3	4	1	128	2	4
+33	__rotate_OldRotCount3	4	1	130	2	2
+34	__re_7qG2_graus_7qG2_000	4	1	132	2	5
+35	__re_7qG2_v_7qG2_000	4	1	134	2	5
+36	__girar_7qG2_graus_7qG2_000	4	1	136	2	7
+37	__girar_7qG2_v_7qG2_000	4	1	138	2	7
+38	__frente_7qG2_v_7qG2_000	4	1	140	2	6
+39	__rotate_OldRotCount1	4	1	142	2	2
+40	__rotate_RotCount1	4	1	144	2	4
+41	__constVal3	2	0	146	1	6
+42	____initialize_global_data_return	1	1	147	1	3
+43	__girar_return	1	1	148	1	8
+44	__constVal96	2	0	149	1	9
+45	__frente_return	1	1	150	1	7
+46	__re_return	1	1	151	1	6
+47	__constVal63	2	0	152	1	6
+48	__rotate_theRVD1	1	1	153	1	2
+49	__rotate_rs1	1	1	154	1	2
+50	__rotate_theRVP1	1	1	155	1	2
+51	__rotate_theRVI1	1	1	156	1	2
+52	__rotate_power3	1	1	157	1	5
+53	__rotate_firstPort3	1	1	158	1	5
+54	__rotate_thePower1	2	1	159	1	4
+55	__rotate_theTurnPct1	2	1	160	1	4
+56	__rotate_theRS1	1	1	161	1	3
+57	__rotate_sync1	1	1	162	1	2
+58	__rotate_stop1	1	1	163	1	2
+59	__rotate_power1	1	1	164	1	4
+60	__rotate_firstPort1	1	1	165	1	5
+61	__rotate_theOM1	1	1	166	1	7
+62	__rotate_theRM1	1	1	167	1	4
+63	__rotate_turnpct1	2	1	168	1	3
+64	__rotate_theUF1	1	1	169	1	6
+65	__rotate_sync3	1	1	170	1	3
+66	__rotate_thePower3	2	1	171	1	4
+67	__rotate_theTurnPct3	2	1	172	1	4
+68	__rotate_theRVD3	1	1	173	1	3
+69	__rotate_rs3	1	1	174	1	2
+70	__constVal32	2	0	175	1	27
+71	____RotateMotor1_return	1	1	176	1	3
+72	____RotateMotor3_return	1	1	177	1	4
+73	__constVal1	2	0	178	1	10
+74	__constVal0	2	1	179	1	39
+75	__rotate_theUF3	1	1	180	1	6
+76	__rotate_theOM3	1	1	181	1	7
+77	__rotate_stop3	1	1	182	1	3
+78	__rotate_turnpct3	2	1	183	1	4
+79	__rotate_theRVP3	1	1	184	1	3
+80	__rotate_theRVI3	1	1	185	1	3
+81	__rotate_theRM3	1	1	186	1	4
+82	__rotate_theRS3	1	1	187	1	3
+83	__OUT_AB	7	0	188	4	5
+84	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+85	__rotate_ports3	7	0	190	4	7
+86	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
+87	__rotate_ports1	7	0	192	4	6
+88	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	28	0	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	29	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	28	2	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	28	2	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	29	2		set __frente_7qG2_v_7qG2_000, 75
+0	28	5	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	28	5	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	29	5		mov __frente_7qG2_graus_7qG2_000, __constValf859P4366928
+0	28	7	#line 28 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	29	7	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	30	7		subcall frente, __frente_return
+0	29	9	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	29	9	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	30	9		set __girar_7qG2_v_7qG2_000, 70
+0	29	12	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	29	12	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	30	12		mov __girar_7qG2_graus_7qG2_000, __constValf395P84067435
+0	29	14	#line 29 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	30	14	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	31	14		subcall girar, __girar_return
+0	30	16	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	30	16	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	31	16		set __frente_7qG2_v_7qG2_000, 75
+0	30	19	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	30	19	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	31	19		mov __frente_7qG2_graus_7qG2_000, __constValf2639P6984136
+0	30	21	#line 30 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	31	21	#line 31 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	32	21		subcall frente, __frente_return
+0	31	23	#line 31 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	31	23	#line 31 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	32	23		set __girar_7qG2_v_7qG2_000, 100
+0	31	26	#line 31 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	31	26	#line 31 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	32	26		mov __girar_7qG2_graus_7qG2_000, __constValNegf65P973445725
+0	31	28	#line 31 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	32	28	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	33	28		subcall girar, __girar_return
+0	32	30	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	32	30	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	33	30		set __frente_7qG2_v_7qG2_000, 75
+0	32	33	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	32	33	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	33	33		mov __frente_7qG2_graus_7qG2_000, __constValf409P255568
+0	32	35	#line 32 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	33	35	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	34	35		subcall frente, __frente_return
+0	33	37	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	33	37	#line 33 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	34	37		set __D0main, 100
+0	34	40	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	35	40	#pragma macro 7
+0	35	40		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6486	63	#line 6486 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	34	63	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	34	63	#line 34 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	35	63		set __D0main, 25
+0	35	66	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	36	66	#pragma macro 7
+0	36	66		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6493	89	#line 6493 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	35	89	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	35	89	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	35	89	#line 35 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	7921	89	#line 7921 "NXCDefs.h"
+0	7922	89		wait 2000
+0	7921	91	#line 7921 "NXCDefs.h"
+0	36	91	#line 36 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	37	91	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	38	91	#pragma macro 7
+0	38	91		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6510	114	#line 6510 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	37	114	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	37	114	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	38	114		set __girar_7qG2_v_7qG2_000, 100
+0	37	117	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	37	117	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	38	117		mov __girar_7qG2_graus_7qG2_000, __constValf43P98229715
+0	37	119	#line 37 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	38	119	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	39	119		subcall girar, __girar_return
+0	38	121	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	38	121	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	39	121		set __frente_7qG2_v_7qG2_000, 50
+0	38	124	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	38	124	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	39	124		mov __frente_7qG2_graus_7qG2_000, __constValf613P883352
+0	38	126	#line 38 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	42	126	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	43	126		subcall frente, __frente_return
+0	42	128	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	42	128	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	43	128		set __re_7qG2_v_7qG2_000, 75
+0	42	131	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	42	131	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	43	131		mov __re_7qG2_graus_7qG2_000, __constValf1432P394488
+0	42	133	#line 42 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	43	133	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	44	133		subcall re, __re_return
+0	43	135	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	43	135	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	44	135		set __girar_7qG2_v_7qG2_000, 70
+0	43	138	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	43	138	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	44	138		mov __girar_7qG2_graus_7qG2_000, __constValf197P920337175
+0	43	140	#line 43 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	44	140	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	45	140		subcall girar, __girar_return
+0	44	142	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	44	142	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	45	142		set __frente_7qG2_v_7qG2_000, 50
+0	44	145	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	44	145	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	45	145		mov __frente_7qG2_graus_7qG2_000, __constValf1125P452812
+0	44	147	#line 44 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	48	147	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	49	147		subcall frente, __frente_return
+0	48	149	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	48	149	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	49	149		set __re_7qG2_v_7qG2_000, 75
+0	48	152	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	48	152	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	49	152		mov __re_7qG2_graus_7qG2_000, __constValf204P627784
+0	48	154	#line 48 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	49	154	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	50	154		subcall re, __re_return
+0	49	156	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	49	156	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	50	156		set __girar_7qG2_v_7qG2_000, 70
+0	49	159	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	49	159	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	50	159		mov __girar_7qG2_graus_7qG2_000, __constValf65P973445725
+0	49	161	#line 49 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	50	161	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	51	161		subcall girar, __girar_return
+0	50	163	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	50	163	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	51	163		set __re_7qG2_v_7qG2_000, 75
+0	50	166	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	50	166	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	51	166		mov __re_7qG2_graus_7qG2_000, __constValf2353P219516
+0	50	168	#line 50 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	51	168	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	52	168		subcall re, __re_return
+0	51	170	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	51	170	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	52	170		set __girar_7qG2_v_7qG2_000, 70
+0	51	173	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	51	173	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	52	173		mov __girar_7qG2_graus_7qG2_000, __constValNegf153P938040025
+0	51	175	#line 51 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	52	175	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	53	175		subcall girar, __girar_return
+0	52	177	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	52	177	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	53	177		set __re_7qG2_v_7qG2_000, 75
+0	52	180	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	52	180	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	53	180		mov __re_7qG2_graus_7qG2_000, __constValf1637P022272
+0	52	182	#line 52 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	53	182	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	54	182		subcall re, __re_return
+0	53	184	#line 53 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+0	54	184		exit -1, -1
+1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	4530	3		sign __rotate_thePower1, __rotate_angle1
+1	4531	6		abs __rotate_theAngle1, __rotate_angle1
+1	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	13		set __rotate_theUF1, 23
+1	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	19		set __rotate_theOM1, 7
+1	4537	22		set __rotate_theRM1, 2
+1	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	34		jmp __rotate_Start1
+1	4543	36		set __rotate_theOM1, 3
+1	4544	39		set __rotate_theRM1, 0
+1	4545	42		set __rotate_theTurnPct1, 0
+1	4547	45		set __rotate_theRS1, 32
+1	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	93		set __rotate_theOM1, 7
+1	4561	96		set __rotate_theUF1, 7
+1	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	120		wait 50
+1	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	130		set __rotate_theOM1, 4
+1	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	147		setout __rotate_ports1, 0, __constVal32
+1	4578	152		subret ____RotateMotor1_return
+2	4635	0		brtst 4, __rotate_Done3, __rotate_angle3
+2	4636	3		sign __rotate_thePower3, __rotate_angle3
+2	4637	6		abs __rotate_theAngle3, __rotate_angle3
+2	4638	9		mul __rotate_thePower3, __rotate_thePower3, __rotate_power3
+2	4640	13		set __rotate_theUF3, 23
+2	4641	16		brtst 4, __rotate_NoSync3, __rotate_sync3
+2	4642	19		set __rotate_theOM3, 7
+2	4643	22		set __rotate_theRM3, 2
+2	4644	25		mov __rotate_theTurnPct3, __rotate_turnpct3
+2	4645	27		brtst 4, __rotate_Start3, __rotate_theTurnPct3
+2	4646	30		add __rotate_theUF3, __rotate_theUF3, __constVal32
+2	4647	34		jmp __rotate_Start3
+2	4649	36		set __rotate_theOM3, 3
+2	4650	39		set __rotate_theRM3, 0
+2	4651	42		set __rotate_theTurnPct3, 0
+2	4653	45		set __rotate_theRS3, 32
+2	4654	48		setout __rotate_ports3, 1, __rotate_theOM3, 8, __rotate_theRM3, 5, __rotate_theAngle3, 6, __rotate_theRS3, 10, __rotate_theRVP3, 11, __rotate_theRVI3, 12, __rotate_theRVD3, 2, __rotate_thePower3, 7, __rotate_turnpct3, 0, __rotate_theUF3
+2	4657	71		index __rotate_firstPort3, __rotate_ports3, 65535
+2	4659	75		getout __rotate_power3, __rotate_firstPort3, 2
+2	4660	79		brtst 4, __rotate_doneRunning3, __rotate_power3
+2	4661	82		getout __rotate_rs3, __rotate_firstPort3, 6
+2	4662	86		brcmp 4, __rotate_Running3, __rotate_rs3, __constVal32
+2	4664	90		brtst 4, __rotate_Reset3, __rotate_stop3
+2	4666	93		set __rotate_theOM3, 7
+2	4667	96		set __rotate_theUF3, 7
+2	4668	99		setout __rotate_ports3, 1, __rotate_theOM3, 8, __constVal1, 6, __rotate_theRS3, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF3
+2	4670	114		getout __rotate_RotCount3, __rotate_firstPort3, 14
+2	4672	118		mov __rotate_OldRotCount3, __rotate_RotCount3
+2	4673	120		wait 50
+2	4675	122		getout __rotate_RotCount3, __rotate_firstPort3, 14
+2	4676	126		brcmp 5, __rotate_Stabilize3, __rotate_OldRotCount3, __rotate_RotCount3
+2	4677	130		set __rotate_theOM3, 4
+2	4678	133		setout __rotate_ports3, 8, __rotate_theRM3, 6, __constVal0, 1, __rotate_theOM3, 0, __constVal1
+2	4681	144		brtst 4, __rotate_Done3, __rotate_theTurnPct3
+2	4682	147		setout __rotate_ports3, 0, __constVal32
+2	4684	152		subret ____RotateMotor3_return
+3	7	0	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	8	0		mov __signed_stack_001frente, __frente_7qG2_v_7qG2_000
+3	7	2	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	7	2	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	8	2		mov __float_stack_002frente, __frente_7qG2_graus_7qG2_000
+3	7	4	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	7	4	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	8	4		mov __float_stack_003frente, __constVal0
+3	7	6	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	7	6	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	8	6		mov __float_stack_004frente, __constVal1
+3	7	8	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	7	8	#line 7 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	8	8		mov __DF0frente, __constVal0
+3	8	10	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	9	10	#pragma macro 35
+3	9	10		acquire __rotateMutex0
+3	9	11		acquire __rotateMutex1
+3	9	12		mov __rotate_ports3, __OUT_AB
+3	9	14		mov __rotate_power3, __signed_stack_001frente
+3	9	16		mov __rotate_angle3, __float_stack_002frente
+3	9	18		mov __rotate_turnpct3, __float_stack_003frente
+3	9	20		mov __rotate_sync3, __float_stack_004frente
+3	9	22		mov __rotate_stop3, __DF0frente
+3	9	24		mov __rotate_theRVP3, __constVal32
+3	9	26		mov __rotate_theRVI3, __constVal0
+3	9	28		mov __rotate_theRVD3, __constVal96
+3	9	30		subcall __RotateMotor3, ____RotateMotor3_return
+3	9	32		release __rotateMutex1
+3	9	33		release __rotateMutex0
+3	6286	34	#line 6286 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	8	34	#line 8 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	9	34	#line 9 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	10	34	#pragma macro 7
+3	10	34		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	6289	57	#line 6289 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	9	57	#line 9 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	9	57	#line 9 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	9	57	#line 9 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	7921	57	#line 7921 "NXCDefs.h"
+3	7922	57		wait 200
+3	7921	59	#line 7921 "NXCDefs.h"
+3	10	59	#line 10 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	12	59	#line 12 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+3	13	59		subret __frente_return
+4	13	0	#line 13 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	14	0		mov __signed_stack_001re, __re_7qG2_v_7qG2_000
+4	13	2	#line 13 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	13	2	#line 13 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	13	2	#line 13 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	13	2	#line 13 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	13	2	#line 13 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	14	2		sub __D0re, __constVal0, __re_7qG2_graus_7qG2_000
+4	14	6	#line 14 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	15	6	#pragma macro 35
+4	15	6		acquire __rotateMutex0
+4	15	7		acquire __rotateMutex1
+4	15	8		mov __rotate_ports3, __OUT_AB
+4	15	10		mov __rotate_power3, __signed_stack_001re
+4	15	12		mov __rotate_angle3, __D0re
+4	15	14		mov __rotate_turnpct3, __constVal0
+4	15	16		mov __rotate_sync3, __constVal0
+4	15	18		mov __rotate_stop3, __constVal1
+4	15	20		mov __rotate_theRVP3, __constVal32
+4	15	22		mov __rotate_theRVI3, __constVal0
+4	15	24		mov __rotate_theRVD3, __constVal96
+4	15	26		subcall __RotateMotor3, ____RotateMotor3_return
+4	15	28		release __rotateMutex1
+4	15	29		release __rotateMutex0
+4	6335	30	#line 6335 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	14	30	#line 14 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	15	30	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	16	30	#pragma macro 7
+4	16	30		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6338	53	#line 6338 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	15	53	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	15	53	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	15	53	#line 15 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	7921	53	#line 7921 "NXCDefs.h"
+4	7922	53		wait 200
+4	7921	55	#line 7921 "NXCDefs.h"
+4	16	55	#line 16 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	18	55	#line 18 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+4	19	55		subret __re_return
+5	19	0	#line 19 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	20	0		mov __signed_stack_001girar, __girar_7qG2_v_7qG2_000
+5	19	2	#line 19 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	19	2	#line 19 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	20	2		mov __D0girar, __girar_7qG2_graus_7qG2_000
+5	20	4	#line 20 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	21	4	#pragma macro 33
+5	21	4		acquire __rotateMutex1
+5	21	5		arrbuild __rotate_ports1, __constVal1
+5	21	9		mov __rotate_power1, __signed_stack_001girar
+5	21	11		mov __rotate_angle1, __D0girar
+5	21	13		mov __rotate_turnpct1, __constVal0
+5	21	15		mov __rotate_sync1, __constVal0
+5	21	17		mov __rotate_stop1, __constVal1
+5	21	19		mov __rotate_theRVP1, __constVal32
+5	21	21		mov __rotate_theRVI1, __constVal0
+5	21	23		mov __rotate_theRVD1, __constVal96
+5	21	25		subcall __RotateMotor1, ____RotateMotor1_return
+5	21	27		release __rotateMutex1
+5	6378	28	#line 6378 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	20	28	#line 20 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	21	28	#line 21 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	22	28	#pragma macro 7
+5	22	28		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6381	51	#line 6381 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	21	51	#line 21 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	21	51	#line 21 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	21	51	#line 21 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	7921	51	#line 7921 "NXCDefs.h"
+5	7922	51		wait 200
+5	7921	53	#line 7921 "NXCDefs.h"
+5	22	53	#line 22 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	24	53	#line 24 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+5	25	53		subret __girar_return
+6	58	0	#line 58 "G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc"
+6	59	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc
+1	__RotateMotor1	187	NXTDefs.h
+2	__RotateMotor3	341	NXTDefs.h
+3	frente	495	G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc
+4	re	556	G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc
+5	girar	613	G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc
+6	__initialize_global_data	668	G:\Principios de Robótica Educacional\programas_lego\Levar_Carrinho_Placa.nxc

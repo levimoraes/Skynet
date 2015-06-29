@@ -6,6 +6,7 @@
 
 #define D8 4699
 #define D5 587
+#define D4 294
 #define D7 2349
 #define D6 1175
 #define D9 9398
@@ -30,21 +31,25 @@
 #define A4 440
 
 
-
-
-
-
-
 task main()
 {
 PlayToneEx(A3,400,VOL,FALSE); Wait(500);
 PlayToneEx(A3,400,VOL,FALSE); Wait(500);
 PlayToneEx(A3,400,VOL,FALSE); Wait(500);
 PlayToneEx(A4,400,VOL,FALSE); Wait(500);
-PlayToneEx(D8,1600,VOL,FALSE); Wait(500);
+PlayToneEx(D4,1600,VOL,FALSE); Wait(500);
 PlayToneEx(D5,400,VOL,FALSE); Wait(500);
 PlayToneEx(A4,400,VOL,FALSE); Wait(500);
-PlayToneEx(D8,400,VOL,FALSE); Wait(500);
+PlayToneEx(D4,400,VOL,FALSE); Wait(500);
+PlayToneEx(D5,400,VOL,FALSE); Wait(500);
+PlayToneEx(A3,400,VOL,FALSE); Wait(500);
+PlayToneEx(A3,400,VOL,FALSE); Wait(500);
+PlayToneEx(A3,400,VOL,FALSE); Wait(500);
+PlayToneEx(A4,400,VOL,FALSE); Wait(500);
+PlayToneEx(D4,1600,VOL,FALSE); Wait(500);
+PlayToneEx(D5,400,VOL,FALSE); Wait(500);
+PlayToneEx(A4,400,VOL,FALSE); Wait(500);
+PlayToneEx(D4,400,VOL,FALSE); Wait(500);
 PlayToneEx(D5,400,VOL,FALSE); Wait(500);
 }
 
